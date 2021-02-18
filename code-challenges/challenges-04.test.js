@@ -96,7 +96,7 @@ Do not use the vertical bar (pipe) in your pattern.
 
 const matchMonth = (input) => {
   // Solution code here...
-  return /(October|Oct|october|oct)/g.test(str);
+  return /(\bOctober\b|\bOct\b|\boctober\b|\boct\b)/g.test(input);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -228,7 +228,7 @@ describe('Testing challenge 6', () => {
   });
 });
 
-xdescribe('Testing challenge 7', () => {
+describe('Testing challenge 7', () => {
   test('It should match any of the acceptable inputs', () => {
     expect(matchMonth('Oct')).toBeTruthy();
     expect(matchMonth('oct')).toBeTruthy();
