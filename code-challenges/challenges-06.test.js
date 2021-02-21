@@ -85,10 +85,7 @@ Write a function named checkValues that takes in an object and a value and retur
 
 const checkValues = (obj, value) => {
   // Solution code here...
-  for(let key in obj){
-    if(obj[key] == value)return true;
-  };
-  return false;
+  return Object.values(obj).includes(value);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -112,9 +109,7 @@ HR has asked you to change the data to make it easier to print so that it looks 
 
 const updateNumbers = (obj) => {
   // Solution code here...
-  let arr = [];
-  for(let key in obj)arr.push(`${key}: ${obj[key]}`);
-  return arr
+  return Object.entries(obj).join(';').split(',').join(': ').split(';');
 };
 
 
@@ -146,9 +141,7 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
-  for(let i = 0 ; i < arr.length ; i++){
-    if(arr[i].name == character && arr[i].children.length > 0)  return true;
-  };
+  for(let i = 0 ; i < arr.length ; i++) if(arr[i].name == character && Object.values(arr[i])[2].length > 0)return true;
   return false;
 };
 
@@ -162,9 +155,7 @@ The input and output of this function are the same as the input and output from 
 
 const hasChildrenEntries = (arr, character) => {
   // Solution code here...
-  for(let i = 0 ; i < arr.length ; i++){
-    if(arr[i].name == character && arr[i].children.length > 0)  return true;
-  };
+  for(let i = 0 ; i < arr.length ; i++)if(arr[i].name == character && arr[i].children.length > 0)  return true;
   return false;
 };
 
