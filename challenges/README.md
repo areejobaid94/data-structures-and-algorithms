@@ -12,4 +12,4 @@ I used four solutions to solve this problem =>
 * In the 4th solution I solved the problem by using recursion and overlaod and return new array;
 
 ## Solution
-![](/assets/reverseArray.jpg)
+![](assets/reverseArray.jpg)
