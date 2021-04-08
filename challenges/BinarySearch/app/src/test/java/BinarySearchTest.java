@@ -22,16 +22,21 @@ public class BinarySearchTest {
     assertEquals(-1,classUnderTest.BinarySearch(newArrOddLen,1));
     assertEquals(-1,classUnderTest.BinarySearch(newArrEmpty,1));
     assertEquals(-1,classUnderTest.BinarySearch(newArrEmpty,9));
-    assertEquals(0 ,classUnderTest.BinarySearch(newArrOddLen,2));
+    assertEquals(-1,classUnderTest.BinarySearch(newArrEmpty,11));
+    assertEquals(-1 ,classUnderTest.BinarySearch(newArr,1));
+    assertEquals(-1 ,classUnderTest.BinarySearch(newArr,9));
 
 
-    System.out.println("test binary search 2nd solution");
+    System.out.println("\n test binary search 2nd solution");
     assertEquals(1,classUnderTest.BinarySearch2ndSol(newArr,4));
     assertEquals(0,classUnderTest.BinarySearch2ndSol(newArrOddLen,2));
     assertEquals(2,classUnderTest.BinarySearch2ndSol(newArr,6));
     assertEquals(-1,classUnderTest.BinarySearch2ndSol(newArrOddLen,1));
     assertEquals(-1,classUnderTest.BinarySearch2ndSol(newArrEmpty,1));
     assertEquals(-1,classUnderTest.BinarySearch2ndSol(newArrEmpty,9));
+    assertEquals(-1,classUnderTest.BinarySearch2ndSol(newArrOddLen,9));
+    assertEquals(-1,classUnderTest.BinarySearch2ndSol(newArr,9));
+    assertEquals(-1,classUnderTest.BinarySearch2ndSol(newArr,1));
 
   }
 }
