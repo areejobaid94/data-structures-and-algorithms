@@ -12,5 +12,7 @@ public class App {
       System.out.println(linkedList.insert(2));
       System.out.println(linkedList.toString());
       System.out.println(linkedList.includes(2));
+      System.out.println(linkedList.includes(1));
+
     }
 }
