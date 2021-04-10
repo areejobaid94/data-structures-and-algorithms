@@ -29,5 +29,18 @@ Write a function called `ArrayShift` which takes an array as an argument. Withou
 I used my solution to solve this problem =>
 * In the first solution I solved the problem by using for loop and return new array with thw new element at the middle of the array;
 
-
 ![](/assets/ReverseArray.jpg)
+
+
+# Class 3
+
+# Binary Search.
+
+## Challenge
+Write a function called `BinarySearch` which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
+
+## Approach & Efficiency
+I solved this challenge by while loop and recreation .
+
+![](/assets/BinarySearch.jpg)
+
