@@ -53,7 +53,6 @@ public class AppTest {
     assertEquals("Test the class of the head after insert", true,linkedinTestWithNoArguments instanceof LinkedList);
   }
 
-  //    assertEquals("Test the string of the linked list", "NULL",linkedinTestWithNoArguments.toString());
   @Test public void testToString() {
     LinkedList linkedinTestWithNoArguments = new LinkedList();
     assertEquals("Test the string of the linked without adding values", "NULL",linkedinTestWithNoArguments.toString());
@@ -62,5 +61,49 @@ public class AppTest {
     linkedinTestWithNoArguments.insert(2);
 
     assertEquals("Test the string of the linked list after adding new nodes", "{ 2 } -> { 1 } -> NULL",linkedinTestWithNoArguments.toString());
+  }
+
+  @Test public void testAppendMethod() {
+    LinkedList linkedinTestWithNoArguments = new LinkedList();
+    linkedinTestWithNoArguments.append(1);
+    assertEquals("Test Value of the head after append the first element", 1,linkedinTestWithNoArguments.head.value);
+    linkedinTestWithNoArguments.append(2);
+    assertEquals("Test if the likedlist include the appended value", true,linkedinTestWithNoArguments.includes(1));
+
+    assertEquals("Test the 2nd item of the likedlist if it is = the last appended value", 2,linkedinTestWithNoArguments.head.next.value);
+  }
+
+  @Test public void testInsertBeforeMethod() {
+    LinkedList linkedinTestWithNoArguments = new LinkedList();
+    linkedinTestWithNoArguments.append(1);
+    linkedinTestWithNoArguments.insertBefore(1,2);
+    assertEquals("Test Value of the head after insert before the head value", 2,linkedinTestWithNoArguments.head.value);
+    assertEquals("Test if the likedlist include the appended value", true,linkedinTestWithNoArguments.includes(2));
+    assertEquals("Test the 2nd item of the likedlist after insert if it is = the last head value", 1,linkedinTestWithNoArguments.head.next.value);
+    linkedinTestWithNoArguments.insertBefore(1,3);
+    assertEquals("Can successfully insert a node before a node located i the middle of a linked list", 3,linkedinTestWithNoArguments.head.next.value);
+  }
+
+  @Test public void testInsertAfterMethod() {
+    LinkedList linkedinTestWithNoArguments = new LinkedList();
+    linkedinTestWithNoArguments.append(1);
+    linkedinTestWithNoArguments.insertAfter(1,2);
+    assertEquals("Test Value of the head after insert After the head value", 2,linkedinTestWithNoArguments.head.next.value);
+    assertEquals("Test if the likedlist include the appended value", true,linkedinTestWithNoArguments.includes(2));
+    assertEquals("Test the 1st item of the likedlist after insert if it is = the last head value", 1,linkedinTestWithNoArguments.head.value);
+    linkedinTestWithNoArguments.insertAfter(2,3);
+    assertEquals("Can successfully insert a node before a node located i the middle of a linked list", 3,linkedinTestWithNoArguments.head.next.next.value);
+  }
+
+  @Test public void testDeleteNodeMethod() {
+    LinkedList linkedinTestWithNoArguments = new LinkedList();
+    linkedinTestWithNoArguments.append(1);
+    linkedinTestWithNoArguments.insertAfter(1,2);
+    linkedinTestWithNoArguments.deleteNode(1);
+    assertEquals("Test delete the first node", 1,linkedinTestWithNoArguments.head.value);
+    linkedinTestWithNoArguments.insertAfter(1,2);
+    linkedinTestWithNoArguments.insertAfter(2,3);
+    linkedinTestWithNoArguments.deleteNode(2);
+    assertEquals("Test delete the mid node", 3,linkedinTestWithNoArguments.head.next.value);
   }
 }
