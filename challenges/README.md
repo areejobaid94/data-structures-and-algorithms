@@ -29,5 +29,6 @@ Write a function called `ArrayShift` which takes an array as an argument. Withou
 I used my solution to solve this problem =>
 * In the first solution I solved the problem by using for loop and return new array with thw new element at the middle of the array;
 
+
 ![](/assets/ReverseArray.jpg)
 
