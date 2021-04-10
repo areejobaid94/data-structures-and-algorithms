@@ -21,3 +21,5 @@ Implementation: Singly Linked Lists
 * incloudes => Big O = n
 * toString method => Big O = n 
 
+![](./assests/LinkedList.png)
+
