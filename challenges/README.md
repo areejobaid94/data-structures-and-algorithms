@@ -32,6 +32,7 @@ I used my solution to solve this problem =>
 ![](/assets/ReverseArray.jpg)
 
 
+
 # Class 3
 
 # Binary Search.
@@ -42,5 +43,6 @@ Write a function called `BinarySearch` which takes in 2 parameters: a sorted arr
 ## Approach & Efficiency
 I solved this challenge by while loop and recreation .
 
-![](/assets/BinarySearch.jpg)
+![](/assets/BinarySearch.png)
+
 
