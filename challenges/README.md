@@ -13,7 +13,7 @@ I used four solutions to solve this problem =>
 * In the 4th solution I solved the problem by using recursion and overlaod and return new array;
 
 ## Solution
-![](/assets/reverseArray.jpg)
+![](./assets/reverseArray.jpg)
 
 
 
@@ -29,7 +29,8 @@ Write a function called `ArrayShift` which takes an array as an argument. Withou
 I used my solution to solve this problem =>
 * In the first solution I solved the problem by using for loop and return new array with thw new element at the middle of the array;
 
-![](/assets/ReverseArray.jpg)
+## Solution
+![](./assets/ReverseArray.jpg)
 
 
 
@@ -43,6 +44,7 @@ Write a function called `BinarySearch` which takes in 2 parameters: a sorted arr
 ## Approach & Efficiency
 I solved this challenge by while loop and recreation .
 
-![](/assets/BinarySearch.png)
+## Solution
+![](./assets/BinarySearch.png)
 
 
