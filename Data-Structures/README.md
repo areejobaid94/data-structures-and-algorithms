@@ -21,6 +21,9 @@ Implementation: Singly Linked Lists
 * incloudes => Big O = n
 * toString method => Big O = n 
 
+![](./assets/LinkedList.png)
+
+
 # Class-06 Linked List:
 
 ## Challenges
@@ -36,3 +39,4 @@ Implementation: Singly Linked Lists
 * insertAfter method => Big O = n.
 
 ![](./assests/ll-Class06.png)
+
