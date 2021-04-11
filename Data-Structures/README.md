@@ -39,5 +39,5 @@ Implementation: Singly Linked Lists
 * insertBefore => Big O = n.
 * insertAfter method => Big O = n.
 
-![](./assests/ll-Class06.png)
+![](./assets/ll-Class06.png)
 
