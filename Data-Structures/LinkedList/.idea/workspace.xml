@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java-fundamentals/inheritance" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testFindMidPoint">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.App" />
       <module name="LinkedList.app.main" />
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.testFindMidPoint" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.testkthFromEnd" />
         <item itemvalue="JUnit.AppTest.testDeleteNodeMethod" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,11 +132,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java</url>
           <line>99</line>

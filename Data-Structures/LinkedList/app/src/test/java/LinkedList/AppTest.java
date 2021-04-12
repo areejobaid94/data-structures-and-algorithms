@@ -94,7 +94,7 @@ public class AppTest {
     linkedinTestWithNoArguments.insertAfter(2,3);
     assertEquals("Can successfully insert a node before a node located i the middle of a linked list", 3,linkedinTestWithNoArguments.head.next.next.value);
   }
-  
+
   // Stretch Goal
   @Test public void testDeleteNodeMethod() {
     LinkedList linkedinTestWithNoArguments = new LinkedList();
