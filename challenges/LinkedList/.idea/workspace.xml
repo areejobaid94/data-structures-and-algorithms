@@ -31,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java-fundamentals/inheritance" />
   </component>
   <component name="RunManager" selected="JUnit.AppTest.testDeleteNodeMethod">
     <configuration name="AppTest.testAppendMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
