@@ -63,4 +63,4 @@ Implementation: Singly Linked Lists
 
 * kthFromEnd method => Big O = n.
 
-![](./assests/class-07.png)
+![](./assets/class-07.png)
