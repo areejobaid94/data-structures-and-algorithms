@@ -95,6 +95,7 @@ public class AppTest {
     assertEquals("Can successfully insert a node before a node located i the middle of a linked list", 3,linkedinTestWithNoArguments.head.next.next.value);
   }
 
+  // Stretch Goal
   @Test public void testDeleteNodeMethod() {
     LinkedList linkedinTestWithNoArguments = new LinkedList();
     linkedinTestWithNoArguments.append(1);
@@ -107,7 +108,7 @@ public class AppTest {
     assertEquals("Test delete the mid node", 3,linkedinTestWithNoArguments.head.value);
   }
 
-  @Test public void testkthFromEnd() {
+  @Test public void testKthFromEnd() {
     LinkedList linkedinTestWithNoArguments = new LinkedList();
     assertEquals("Test find item in empty likedlist", "Exception",linkedinTestWithNoArguments.kthFromEnd(0));
     linkedinTestWithNoArguments.append(1);
@@ -117,5 +118,15 @@ public class AppTest {
     assertEquals("Test find the 2nd item from end", 2,linkedinTestWithNoArguments.kthFromEnd(1));
     assertEquals("Test find the 3rd item from end", 1,linkedinTestWithNoArguments.kthFromEnd(2));
     assertEquals("Exception", "Exception",linkedinTestWithNoArguments.kthFromEnd(4));
+  }
+
+  // Stretch Goal
+  @Test public void testFindMidPoint() {
+    LinkedList linkedinTestWithNoArguments = new LinkedList();
+    assertEquals("Test find item in empty likedlist", "Exception",linkedinTestWithNoArguments.kthFromEnd(0));
+    linkedinTestWithNoArguments.append(1);
+    linkedinTestWithNoArguments.insertAfter(1,2);
+    linkedinTestWithNoArguments.append(3);
+    assertEquals(2,linkedinTestWithNoArguments.findMidPoint());
   }
 }
