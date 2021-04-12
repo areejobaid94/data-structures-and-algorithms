@@ -100,10 +100,22 @@ public class AppTest {
     linkedinTestWithNoArguments.append(1);
     linkedinTestWithNoArguments.insertAfter(1,2);
     linkedinTestWithNoArguments.deleteNode(1);
-    assertEquals("Test delete the first node", 1,linkedinTestWithNoArguments.head.value);
+    assertEquals("Test delete the first node", 2,linkedinTestWithNoArguments.head.value);
     linkedinTestWithNoArguments.insertAfter(1,2);
     linkedinTestWithNoArguments.insertAfter(2,3);
     linkedinTestWithNoArguments.deleteNode(2);
-    assertEquals("Test delete the mid node", 3,linkedinTestWithNoArguments.head.next.value);
+    assertEquals("Test delete the mid node", 3,linkedinTestWithNoArguments.head.value);
+  }
+
+  @Test public void testkthFromEnd() {
+    LinkedList linkedinTestWithNoArguments = new LinkedList();
+    assertEquals("Test find item in empty likedlist", "Exception",linkedinTestWithNoArguments.kthFromEnd(0));
+    linkedinTestWithNoArguments.append(1);
+    linkedinTestWithNoArguments.insertAfter(1,2);
+    linkedinTestWithNoArguments.append(3);
+    assertEquals("Test find the first item from end", 3,linkedinTestWithNoArguments.kthFromEnd(0));
+    assertEquals("Test find the 2nd item from end", 2,linkedinTestWithNoArguments.kthFromEnd(1));
+    assertEquals("Test find the 3rd item from end", 1,linkedinTestWithNoArguments.kthFromEnd(2));
+    assertEquals("Exception", "Exception",linkedinTestWithNoArguments.kthFromEnd(4));
   }
 }
