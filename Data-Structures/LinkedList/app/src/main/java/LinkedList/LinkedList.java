@@ -143,7 +143,7 @@ public class LinkedList {
     return node.value;
   }
 
-  public Object findMidPint(){
+  public Object findMidPoint(){
     Node node = this.head;
     if(node == null) return null;
     try{

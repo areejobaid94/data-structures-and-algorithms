@@ -15,7 +15,7 @@ public class App {
       System.out.println(linkedList.includes(1));
       System.out.println(linkedList.toString());
 
-      System.out.println(linkedList.findMidPint());
+      System.out.println(linkedList.findMidPoint());
 
     }
 }
