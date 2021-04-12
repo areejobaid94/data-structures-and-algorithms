@@ -142,4 +142,20 @@ public class LinkedList {
     }
     return node.value;
   }
+
+  public Object findMidPint(){
+    Node node = this.head;
+    if(node == null) return null;
+    try{
+      int count = 0;
+      while(node != null && (this.size / 2 > count )){
+        node = node.next;
+        count++;
+      };
+    }catch (Exception ex){
+      return Error.Exception();
+    }
+    return node.value;
+  }
+
 }
