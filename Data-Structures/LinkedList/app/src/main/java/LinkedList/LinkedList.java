@@ -92,6 +92,7 @@ public class LinkedList {
     return this;
   }
 
+  // Stretch Goal
   public LinkedList deleteNode(Object value){
     try {
       Node current = this.head;
@@ -143,6 +144,7 @@ public class LinkedList {
     return node.value;
   }
 
+  // Stretch Goal
   public Object findMidPoint(){
     Node node = this.head;
     if(node == null) return null;
