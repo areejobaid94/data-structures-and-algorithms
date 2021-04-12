@@ -36,6 +36,71 @@ public class LinkedList {
     return false;
   }
 
+  public LinkedList append(Object value) {
+    try{
+      Node node = this.head;
+      if (node == null) {
+        this.head = new Node(value);
+        return this;
+      };
+      while (node.next != null)node = node.next;
+      node.next = new Node(value);
+    }catch (Exception ex){
+      System.out.println(Error.unExpectedError());
+    }
+    return this;
+  };
+
+
+  public LinkedList insertBefore  (Object value,Object newVal){
+    try{
+      Node node = this.head;
+      if(node.value == value){this.head = new Node(newVal);this.head.next = node;return this;}
+      while(node.next != null){
+        if(node.next.value == value){
+          Node nextValue = node.next;
+          node.next = new Node(newVal);
+          node.next.next = nextValue;
+          break;
+        };
+        node = node.next;
+      };
+    } catch (Exception ex){
+      System.out.println(Error.unExpectedError());
+    }
+    return this;
+  };
+
+  public LinkedList insertAfter(Object value,Object newVal){
+    Node node = this.head;
+    while(node != null){
+      if(node.value == value){
+        Node nextValue = node.next;
+        node.next = new Node(newVal);
+        node.next.next = nextValue;
+        break;
+      };
+      node = node.next;
+    };
+    return this;
+  }
+
+  public LinkedList deleteNode(Object value){
+    try {
+      Node current = this.head;
+      while (current.next != null) {
+        if (current.next.value == value){
+          current.next = current.next.next;
+          break;
+        }
+        current = current.next;
+      }
+    }catch(Exception ex){
+      System.out.println(Error.unExpectedError());
+    }
+    return this;
+  }
+
   public String toString() {
     Node current = this.head;
     String str = current != null ? "{ " : "NULL";
