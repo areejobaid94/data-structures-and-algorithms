@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/LinkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/test/classes/LinkedList/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/test/classes/LinkedList/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Errors/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Errors/Error.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/LinkedList/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.AppTest.testkthFromEnd">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.App" />
       <module name="LinkedList.app.main" />
@@ -62,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testTheInstanceOfLinkedlistClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testDeleteNodeMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +74,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="LinkedList" />
       <option name="MAIN_CLASS_NAME" value="LinkedList.AppTest" />
-      <option name="METHOD_NAME" value="testTheInstanceOfLinkedlistClass" />
+      <option name="METHOD_NAME" value="testDeleteNodeMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testInsertAfterMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedList" />
+      <option name="MAIN_CLASS_NAME" value="LinkedList.AppTest" />
+      <option name="METHOD_NAME" value="testInsertAfterMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testkthFromEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedList" />
+      <option name="MAIN_CLASS_NAME" value="LinkedList.AppTest" />
+      <option name="METHOD_NAME" value="testkthFromEnd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,9 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testkthFromEnd" />
+        <item itemvalue="JUnit.AppTest.testDeleteNodeMethod" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.testInsertAfterMethod" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTest.testTheInstanceOfLinkedlistClass" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +141,11 @@
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/App.java</url>
           <line>6</line>
@@ -112,6 +153,30 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java</url>
+          <line>129</line>
+          <properties class="LinkedList.LinkedList" method="kthFromEnd">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java</url>
+          <line>109</line>
+          <properties class="LinkedList.AppTest" method="testkthFromEnd">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java</url>
+          <line>94</line>
+          <properties class="LinkedList.LinkedList" method="deleteNode">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

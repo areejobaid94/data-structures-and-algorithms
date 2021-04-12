@@ -50,5 +50,17 @@ Implementation: Singly Linked Lists
 * insertBefore => Big O = n.
 * insertAfter method => Big O = n.
 
-![](./assets/ll-Class06.png)
+![](./assests/ll-Class06.png)
 
+# Class-07 Linked List:
+
+## Challenges
+
+* `.kthFromEnd(k)` Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+
+## Approach & Efficiency
+
+* kthFromEnd method => Big O = n.
+
+![](./assests/class-07.png)
