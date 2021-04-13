@@ -14,8 +14,8 @@ public class App {
       linkedList2.append(6);
       System.out.println(linkedList.toString());
       System.out.println(linkedList2.toString());
-        LinkedList linkedList1 =  linkedList.zipLists(linkedList, linkedList2);
-        System.out.println(linkedList1.toString());
+      String linkedList1 =  linkedList.zipLists(linkedList, linkedList2);
+      System.out.println(linkedList1.toString());
 
     }
 }

@@ -129,4 +129,24 @@ public class AppTest {
     linkedinTestWithNoArguments.append(3);
     assertEquals(2,linkedinTestWithNoArguments.findMidPoint());
   }
+
+  @Test public void testZipLists () {
+    LinkedList firstList = new LinkedList();
+    LinkedList secList = new LinkedList();
+    firstList.append(1);
+    firstList.append(2);
+    firstList.append(3);
+    secList.append(4);
+    secList.append(5);
+    secList.append(6);
+    assertEquals("Test merge two linked list with the same length", "{ 1 } -> { 4 } -> { 2 } -> { 5 } -> { 3 } -> { 6 } -> NULL",firstList.zipLists(firstList,secList));
+    LinkedList emptyList = new LinkedList();
+
+    secList = new LinkedList();
+    secList.append(4);
+    secList.append(5);
+    secList.append(6);
+    assertEquals("Test merge two linked list with first ele is empty", "{ 4 } -> { 5 } -> { 6 } -> NULL",firstList.zipLists(emptyList,secList));
+
+  }
 }

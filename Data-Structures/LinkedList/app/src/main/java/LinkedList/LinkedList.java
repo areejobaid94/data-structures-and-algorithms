@@ -160,12 +160,12 @@ public class LinkedList {
     return node.value;
   }
   // first solution.
-  public LinkedList zipLists(LinkedList list1, LinkedList list2){
+  public String zipLists(LinkedList list1, LinkedList list2){
     Node list1Current = list1.head;
     Node list2Current = list2.head;
     if(list1Current == null ){
       list1.head = list2.head;
-      return list1;
+      return list1.toString();
     }
     while (list1Current != null && list2Current != null){
       Node list1Node = list1Current.next;
@@ -175,7 +175,7 @@ public class LinkedList {
       list1Current = list1Node;
       list2Current = list2Node;
     }
-    return list1;
+    return list1.toString();
   };
+};
 
-}
