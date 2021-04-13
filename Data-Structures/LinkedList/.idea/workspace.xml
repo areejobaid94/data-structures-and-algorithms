@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Node/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +31,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java-fundamentals/inheritance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.App" />
       <module name="LinkedList.app.main" />
@@ -110,9 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.testFindMidPoint" />
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.testkthFromEnd" />
         <item itemvalue="JUnit.AppTest.testDeleteNodeMethod" />
       </list>
@@ -137,13 +139,10 @@
           <line>99</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/App.java</url>
-          <line>6</line>
-          <properties class="LinkedList.App" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
+          <line>5</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java</url>
@@ -155,21 +154,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java</url>
-          <line>95</line>
-          <properties class="LinkedList.LinkedList" method="deleteNode">
+          <line>162</line>
+          <properties class="LinkedList.LinkedList" method="zipLists">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java</url>
-          <line>147</line>
-          <properties class="LinkedList.LinkedList" method="findMidPoint">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LinkedList$App.ic" NAME="App Coverage Results" MODIFIED="1618344705437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LinkedList.*</FILTER>
+    </SUITE>
   </component>
 </project>
