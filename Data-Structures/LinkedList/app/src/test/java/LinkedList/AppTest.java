@@ -141,7 +141,6 @@ public class AppTest {
     secList.append(6);
     assertEquals("Test merge two linked list with the same length", "{ 1 } -> { 4 } -> { 2 } -> { 5 } -> { 3 } -> { 6 } -> NULL",firstList.zipLists(firstList,secList));
     LinkedList emptyList = new LinkedList();
-
     secList = new LinkedList();
     secList.append(4);
     secList.append(5);

@@ -163,6 +163,24 @@ public class LinkedList {
   public String zipLists(LinkedList list1, LinkedList list2){
     Node list1Current = list1.head;
     Node list2Current = list2.head;
+    LinkedList linkedList = new LinkedList();
+    while (list1Current != null || list2Current != null){
+      if(list1Current != null){
+        linkedList.append(list1Current.value);
+        list1Current = list1Current.next;
+      }
+      if( list2Current != null){
+        linkedList.append(list2Current.value);
+        list2Current = list2Current.next;
+      }
+    }
+    return  linkedList.toString();
+  };
+
+  // 2nd solution.
+  public String zipLists2nd(LinkedList list1, LinkedList list2){
+    Node list1Current = list1.head;
+    Node list2Current = list2.head;
     if(list1Current == null ){
       list1.head = list2.head;
       return list1.toString();
@@ -176,24 +194,6 @@ public class LinkedList {
       list2Current = list2Node;
     }
     return list1.toString();
-  };
-
-  // first solution.
-  public String zipLists2nd(LinkedList list1, LinkedList list2){
-    Node list1Current = list1.head;
-    Node list2Current = list2.head;
-    LinkedList linkedList = new LinkedList();
-    while (list1Current != null || list2Current != null){
-      if(list1Current != null){
-        linkedList.append(list1Current.value);
-        list1Current = list1Current.next;
-      }
-      if( list2Current != null){
-        linkedList.append(list2Current.value);
-        list2Current = list2Current.next;
-      }
-    }
-    return  linkedList.toString();
   };
 
   public boolean palindromeLast(LinkedList list){
