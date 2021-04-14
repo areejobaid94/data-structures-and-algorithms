@@ -177,5 +177,35 @@ public class LinkedList {
     }
     return list1.toString();
   };
+
+  // first solution.
+  public String zipLists2nd(LinkedList list1, LinkedList list2){
+    Node list1Current = list1.head;
+    Node list2Current = list2.head;
+    LinkedList linkedList = new LinkedList();
+    while (list1Current != null || list2Current != null){
+      if(list1Current != null){
+        linkedList.append(list1Current.value);
+        list1Current = list1Current.next;
+      }
+      if( list2Current != null){
+        linkedList.append(list2Current.value);
+        list2Current = list2Current.next;
+      }
+    }
+    return  linkedList.toString();
+  };
+
+  public boolean palindromeLast(LinkedList list){
+    Node node = list.head;
+    if(node == null ||(node != null && node.next == null))return false;
+    int count = 0;
+    while(node != null && (count < (((int) list.size/2)))){
+      if(this.kthFromEnd(count) != this.kthFromEnd(list.size - count -1))return false;
+      node = node.next;
+      count++;
+    };
+    return true;
+  };
 };
 
