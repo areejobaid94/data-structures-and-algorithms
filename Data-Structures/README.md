@@ -70,3 +70,4 @@ Implementation: Singly Linked Lists
 * zipLists method => Big O = n.
 
 ![](./assests/class-08.png)
+
