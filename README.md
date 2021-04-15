@@ -35,7 +35,6 @@ Implementation: Singly Linked Lists
 
 ![](./assets/LinkedList.png)
 
-
 # Class-06 Linked List:
 
 ## Challenges
@@ -50,7 +49,7 @@ Implementation: Singly Linked Lists
 * insertBefore => Big O = n.
 * insertAfter method => Big O = n.
 
-![](./assests/ll-Class06.png)
+![](./assets/ll-Class06.png)
 
 # Class-07 Linked List:
 
@@ -63,7 +62,7 @@ Implementation: Singly Linked Lists
 
 * kthFromEnd method => Big O = n.
 
-![](./assests/class-07.png)
+![](./assets/class-07.png)
 
 
 # Class-08 Linked List:
@@ -77,7 +76,7 @@ Implementation: Singly Linked Lists
 
 * zipLists method => Big O = n.
 
-![](./assests/class-08.png)
+![](./assets/class-08.png)
 
 
 # Class-10 Queue and Stack:
@@ -110,4 +109,4 @@ Implementation: Singly Linked Lists
 * peek method => Big O = 1.
 * isEmpty method => Big O = 1.
 
-![](./assests/Stack&Queue.png)
+![](./assets/Stack&Queue.png)
