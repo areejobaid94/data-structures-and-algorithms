@@ -100,4 +100,4 @@ Implementation: Singly Linked Lists
 * peek method => Big O = 1.
 * isEmpty method => Big O = 1.
 
-![](./assests/Stack&Queue.png)
+![](./assets/Stack&Queue.png)
