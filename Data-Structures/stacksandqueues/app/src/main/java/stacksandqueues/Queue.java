@@ -39,7 +39,7 @@ public class Queue <T>{
         }catch (NullPointerException ex){
             System.out.println(ex);
         }
-        return firstNode;
+        return firstNode.value;
     }
 
     public Object peek(){
