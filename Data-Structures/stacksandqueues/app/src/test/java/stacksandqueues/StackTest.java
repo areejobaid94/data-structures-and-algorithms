@@ -15,9 +15,9 @@ public class StackTest {
         Stack classUnderTest = new Stack();
         classUnderTest.push(1);
         classUnderTest.push(2);
-        assertEquals("Stack pop last node","Node{value=2, next=null}" ,classUnderTest.pop().toString());
+        assertEquals("Stack pop last node",2 ,classUnderTest.pop());
         assertEquals("Stack after pop the last node","Stack{top=Node{value=1, next=null}}" ,classUnderTest.toString());
-        assertEquals("Stack pop last node","Node{value=1, next=null}" ,classUnderTest.pop().toString());
+        assertEquals("Stack pop last node",1 ,classUnderTest.pop());
         assertEquals("empty a stack after multiple pops","Stack{top=null}" ,classUnderTest.toString());
         assertEquals("Stack pop Empty Stack","java.lang.NullPointerException" ,classUnderTest.pop().toString());
     }

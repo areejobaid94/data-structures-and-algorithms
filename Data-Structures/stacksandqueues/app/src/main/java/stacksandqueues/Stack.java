@@ -31,7 +31,7 @@ public class Stack<T> {
         }catch (NullPointerException ex){
             System.out.println(ex);
         }
-        return lastNode;
+        return lastNode.value;
     }
 
     public Object peek() {

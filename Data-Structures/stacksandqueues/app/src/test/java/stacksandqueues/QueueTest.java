@@ -14,9 +14,9 @@ public class QueueTest {
         Queue classUnderTest = new Queue();
         classUnderTest.enqueue(1);
         classUnderTest.enqueue(2);
-        assertEquals("Dequeue first item in a queue", "Node{value=1, next=null}",classUnderTest.dequeue().toString());
+        assertEquals("Dequeue first item in a queue", 1,classUnderTest.dequeue());
         assertEquals("Queue after dequeue","Queue{front=Node{value=2, next=null}, Rear=Node{value=2, next=null}}",classUnderTest.toString());
-        assertEquals("dequeue last item in a queue","Node{value=2, next=null}",classUnderTest.dequeue().toString());
+        assertEquals("dequeue last item in a queue",2,classUnderTest.dequeue());
     }
 
     @Test public void testQueuePeek() {
