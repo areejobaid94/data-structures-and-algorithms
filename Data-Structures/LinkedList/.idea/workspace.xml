@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testZipLists">
+  <component name="RunManager" selected="JUnit.AppTest.testKthFromEnd">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.App" />
       <module name="LinkedList.app.main" />
@@ -75,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testZipLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testKthFromEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +85,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="LinkedList" />
       <option name="MAIN_CLASS_NAME" value="LinkedList.AppTest" />
-      <option name="METHOD_NAME" value="testZipLists" />
+      <option name="METHOD_NAME" value="testKthFromEnd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testZipLists" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest.testKthFromEnd" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.testFindMidPoint" />
         <item itemvalue="JUnit.AppTest.testkthFromEnd" />
       </list>
@@ -160,7 +160,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java</url>
           <line>132</line>
-          <properties class="LinkedList.AppTest" method="testZipLists">
+          <properties class="LinkedList.AppTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="14" />
