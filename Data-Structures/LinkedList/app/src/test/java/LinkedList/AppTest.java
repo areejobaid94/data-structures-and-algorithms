@@ -112,11 +112,13 @@ public class AppTest {
     LinkedList linkedinTestWithNoArguments = new LinkedList();
     assertEquals("Test find item in empty likedlist", "Exception",linkedinTestWithNoArguments.kthFromEnd(0));
     linkedinTestWithNoArguments.append(1);
-    linkedinTestWithNoArguments.insertAfter(1,2);
-    linkedinTestWithNoArguments.append(3);
+    assertEquals("Test Where the linked list is of a size 1", 1,linkedinTestWithNoArguments.kthFromEnd(0));
+    linkedinTestWithNoArguments.insertAfter(1,2); linkedinTestWithNoArguments.append(3);
     assertEquals("Test find the first item from end", 3,linkedinTestWithNoArguments.kthFromEnd(0));
     assertEquals("Test find the 2nd item from end", 2,linkedinTestWithNoArguments.kthFromEnd(1));
     assertEquals("Test find the 3rd item from end", 1,linkedinTestWithNoArguments.kthFromEnd(2));
+    assertEquals("Test find the item of the length", "Exception",linkedinTestWithNoArguments.kthFromEnd(3));
+    assertEquals("Test Where k is not a positive integer", "Exception",linkedinTestWithNoArguments.kthFromEnd(-1));
     assertEquals("Exception", "Exception",linkedinTestWithNoArguments.kthFromEnd(4));
   }
 
