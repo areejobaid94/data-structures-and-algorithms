@@ -54,3 +54,50 @@ Implementation: Singly Linked Lists
 * kthFromEnd method => Big O = n.
 
 ![](./assests/class-07.png)
+
+
+# Class-08 Linked List:
+
+## Challenges
+
+* Write a function called `zipLists` which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+
+## Approach & Efficiency
+
+* zipLists method => Big O = n.
+
+![](./assests/class-08.png)
+
+
+# Class-10 Queue and Stack:
+
+## Challenges
+
+* Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
+* Create a Stack class that has a top property. It creates an empty Stack when instantiated.
+  This object should be aware of a default empty value assigned to top when the stack is created.
+    1. Define a method called push which takes any value as an argument and adds a new node with that value to the top of the stack with an O(1) Time performance.
+    2. Define a method called pop that does not take any argument, removes the node from the top of the stack, and returns the node’s value.
+    Should raise exception when called on empty stack
+    3. Define a method called peek that does not take an argument and returns the value of the node located on top of the stack, without removing it from the stack.
+    Should raise exception when called on empty stack
+    4. Define a method called isEmpty that takes no argument, and returns a boolean indicating whether or not the stack is empty.
+* Create a Queue class that has a front property. It creates an empty Queue when instantiated.
+  This object should be aware of a default empty value assigned to front when the queue is created.
+    1. Define a method called enqueue which takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance.
+    2. Define a method called dequeue that does not take any argument, removes the node from the front of the queue, and returns the node’s value.
+    Should raise exception when called on empty queue
+    3. Define a method called peek that does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue.
+    Should raise exception when called on empty queue
+    4. Define a method called isEmpty that takes no argument, and returns a boolean indicating whether or not the queue is empty.
+    Be sure to follow your languages best practices for naming conventions.
+
+## Approach & Efficiency
+
+* push method => Big O = 1.
+* pop method => Big O = 1.
+* peek method => Big O = 1.
+* isEmpty method => Big O = 1.
+
+![](./assets/Stack&Queue.png)
