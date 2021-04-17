@@ -132,7 +132,7 @@ public class AppTest {
     assertEquals(2,linkedinTestWithNoArguments.findMidPoint());
   }
 
-  @Test public void testZipLists () {
+  @Test public void testZipListsFirstCase () {
     LinkedList firstList = new LinkedList();
     LinkedList secList = new LinkedList();
     firstList.append(1);
@@ -149,5 +149,44 @@ public class AppTest {
     secList.append(6);
     assertEquals("Test merge two linked list with first ele is empty", "{ 4 } -> { 5 } -> { 6 } -> NULL",firstList.zipLists(emptyList,secList));
 
+  }
+
+  @Test public void testZipLists2ndCase () {
+    LinkedList secList = new LinkedList();
+    secList.append(4);
+    secList.append(5);
+    secList.append(6);
+    LinkedList emptyList = new LinkedList();
+    secList = new LinkedList();
+    secList.append(4);
+    secList.append(5);
+    secList.append(6);
+    assertEquals("Test merge two linked list with first ele is empty", "{ 4 } -> { 5 } -> { 6 } -> NULL",secList.zipLists(emptyList,secList));
+  }
+
+  @Test public void testZipLists3rdCase () {
+    LinkedList firstList = new LinkedList();
+    LinkedList secList = new LinkedList();
+    firstList.append(1);
+    firstList.append(2);
+    secList.append(4);
+    secList.append(5);
+    secList.append(6);
+    assertEquals("Test merge two linked list with first linkedlidt size less than the second", "{ 1 } -> { 4 } -> { 2 } -> { 5 } -> { 6 } -> NULL",firstList.zipLists(firstList,secList));
+  }
+
+  @Test public void testZipLists4rthCase () {
+    LinkedList firstList = new LinkedList();
+    LinkedList secList = new LinkedList();
+    firstList.append(1);
+    firstList.append(2);
+    secList.append(6);
+    assertEquals("Test merge two linked list with 2nd linkedlidt size less than the first", "{ 1 } -> { 6 } -> { 2 } -> NULL",firstList.zipLists(firstList,secList));
+  }
+
+  @Test public void testZipLists5Case () {
+    LinkedList firstList = new LinkedList();
+    LinkedList secList = new LinkedList();
+    assertEquals("Test merge two empty linked list ", "NULL",firstList.zipLists(firstList,secList));
   }
 }

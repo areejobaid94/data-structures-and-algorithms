@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/test/classes/LinkedList/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/test/classes/LinkedList/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testKthFromEnd">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.App" />
-      <module name="LinkedList.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedList.app.test" />
       <extension name="coverage">
@@ -59,7 +48,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testFindMidPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testZipLists2ndCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -69,13 +58,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="LinkedList" />
       <option name="MAIN_CLASS_NAME" value="LinkedList.AppTest" />
-      <option name="METHOD_NAME" value="testFindMidPoint" />
+      <option name="METHOD_NAME" value="testZipLists2ndCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testKthFromEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testZipLists3rdCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -85,13 +74,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="LinkedList" />
       <option name="MAIN_CLASS_NAME" value="LinkedList.AppTest" />
-      <option name="METHOD_NAME" value="testKthFromEnd" />
+      <option name="METHOD_NAME" value="testZipLists3rdCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testkthFromEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testZipLists4rthCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +90,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="LinkedList" />
       <option name="MAIN_CLASS_NAME" value="LinkedList.AppTest" />
-      <option name="METHOD_NAME" value="testkthFromEnd" />
+      <option name="METHOD_NAME" value="testZipLists4rthCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testZipLists5Case" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedList" />
+      <option name="MAIN_CLASS_NAME" value="LinkedList.AppTest" />
+      <option name="METHOD_NAME" value="testZipLists5Case" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testKthFromEnd" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTest.testFindMidPoint" />
-        <item itemvalue="JUnit.AppTest.testkthFromEnd" />
+        <item itemvalue="JUnit.AppTest.testZipLists5Case" />
+        <item itemvalue="JUnit.AppTest.testZipLists4rthCase" />
+        <item itemvalue="JUnit.AppTest.testZipLists3rdCase" />
+        <item itemvalue="JUnit.AppTest.testZipLists2ndCase" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +177,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java</url>
+          <line>166</line>
+          <properties class="LinkedList.AppTest" method="testZipLists3rdCase">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
