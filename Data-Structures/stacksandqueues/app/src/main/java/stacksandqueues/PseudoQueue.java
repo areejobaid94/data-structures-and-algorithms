@@ -1,6 +1,22 @@
 package stacksandqueues;
 
 public class PseudoQueue<T> {
+    public Stack getStackQueue() {
+        return stackQueue;
+    }
+
+    public void setStackQueue(Stack stackQueue) {
+        this.stackQueue = stackQueue;
+    }
+
+    public Stack getStackHelper() {
+        return stackHelper;
+    }
+
+    public void setStackHelper(Stack stackHelper) {
+        this.stackHelper = stackHelper;
+    }
+
     Stack stackQueue;
     Stack stackHelper;
 

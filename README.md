@@ -1,4 +1,22 @@
-# Data Structures and Algorithms
+# data-structures-and-algorithms
+Code challenges 401 - Data-Structures
+
+
+**NAME**     | **URL**
+------------ | -------------
+Home         | [Home](https://github.com/areejobaid94/data-structures-and-algorithms).
+ class 01    | [Reverse an array](https://github.com/areejobaid94/data-structures-and-algorithms/blob/main/challenges/ArrayReverse.java).
+ class 02    | [array-shift](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/challenges/ArrayShiftNew).
+ class 03    | [array-binary-search](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/challenges/BinarySearch).
+ class 04    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1b__xKOxuZ3mWK-STrHXCcd6yjAT5qWkMoQ6FRnXG1dA/edit?usp=sharing).
+ class 05    | [Linked List Implementation](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/LinkedList).
+ class 06    | [ll-insertions](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/LinkedList).
+ class 07    | [ll-kth-from-end](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/LinkedList).
+ class 08    | [Merge two linked lists](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/LinkedList).   
+ class 09    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1A5ttZv3xWrQadePrPpr1ZnjyIsjEl62qHl235zIgQD0/edit#gid=1807550832).
+ class 10    | [Stacks and Queues](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
+ class 11    | [queue-with-stacks](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
+
 
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
 
@@ -110,3 +128,20 @@ Implementation: Singly Linked Lists
 * isEmpty method => Big O = 1.
 
 ![](./assets/Stack&Queue.png)
+
+# Class-11 Queue With Stacks:
+
+## Challenges
+
+   Create a brand new PseudoQueue class. Do not use an existing Queue. Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below), but will internally only utilize 2 Stack objects. Ensure that you create your class with the following methods:
+
+  * enqueue(value) which inserts value into the PseudoQueue, using a first-in, first-out approach.
+  * dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
+  * The Stack instances have only push, pop, and peek methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
+
+## Approach & Efficiency
+
+* enqueue method => Big O = 2n.
+* dequeue method => Big O = 1.
+
+![](./assets/queue-with-stacks.png)
