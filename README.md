@@ -1,4 +1,22 @@
-# Data Structures and Algorithms
+# data-structures-and-algorithms
+Code challenges 401 - Data-Structures
+
+
+**NAME**     | **URL**
+------------ | -------------
+Home         | [Home](https://github.com/areejobaid94/data-structures-and-algorithms).
+ class 01    | [Reverse an array](https://github.com/areejobaid94/data-structures-and-algorithms/blob/main/challenges/ArrayReverse.java).
+ class 02    | [array-shift](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/challenges/ArrayShiftNew).
+ class 03    | [array-binary-search](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/challenges/BinarySearch).
+ class 04    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1b__xKOxuZ3mWK-STrHXCcd6yjAT5qWkMoQ6FRnXG1dA/edit?usp=sharing).
+ class 05    | [Linked List Implementation](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/LinkedList).
+ class 06    | [ll-insertions](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/LinkedList).
+ class 07    | [ll-kth-from-end](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/LinkedList).
+ class 08    | [Merge two linked lists](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/LinkedList).   
+ class 09    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1A5ttZv3xWrQadePrPpr1ZnjyIsjEl62qHl235zIgQD0/edit#gid=1807550832).
+ class 10    | [Stacks and Queues](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
+ class 11    | [queue-with-stacks](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
+
 
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
 
