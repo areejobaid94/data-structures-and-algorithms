@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/PseudoQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/stacksandqueues/PseudoQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/PseudoQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.PseudoQueueTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stacksandqueues.App" />
       <module name="stacksandqueues.app.main" />
@@ -78,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stacksandqueues.app.test" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +87,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.QueueTest" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testQueueEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PseudoQueueTest.testPseudoQueueEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stacksandqueues.app.test" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.QueueTest" />
-      <option name="METHOD_NAME" value="testQueueEnqueue" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
+      <option name="METHOD_NAME" value="testPseudoQueueEnqueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PseudoQueueTest.testPseudoQueueEnqueueDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stacksandqueues.app.test" />
       <extension name="coverage">
         <pattern>
@@ -118,13 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.StackTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
+      <option name="METHOD_NAME" value="testPseudoQueueEnqueueDequeue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.testStackPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PseudoQueueTest.testPseudoQueueInstantiateEmptyPseudoQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stacksandqueues.app.test" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.StackTest" />
-      <option name="METHOD_NAME" value="testStackPop" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
+      <option name="METHOD_NAME" value="testPseudoQueueInstantiateEmptyPseudoQueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PseudoQueueTest" />
+        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueInstantiateEmptyPseudoQueue" />
+        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueEnqueueDequeue" />
+        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueEnqueue" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.StackTest" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.StackTest.testStackPop" />
-        <item itemvalue="JUnit.QueueTest.testQueueEnqueue" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +179,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/stacksandqueues/Stack.java</url>
-          <line>36</line>
+          <line>44</line>
           <properties class="stacksandqueues.Stack" method="peek">
             <option name="EMULATED" value="true" />
           </properties>
@@ -210,11 +211,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/stacksandqueues/PseudoQueue.java</url>
-          <line>11</line>
+          <line>27</line>
           <properties class="stacksandqueues.PseudoQueue" method="enqueue">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/test/java/stacksandqueues/PseudoQueueTest.java</url>
+          <line>17</line>
+          <properties class="stacksandqueues.PseudoQueueTest" method="testPseudoQueueEnqueueDequeue">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/stacksandqueues/QueueTest.java</url>

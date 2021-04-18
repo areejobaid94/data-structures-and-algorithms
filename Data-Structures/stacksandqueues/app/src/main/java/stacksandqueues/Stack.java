@@ -1,6 +1,14 @@
 package stacksandqueues;
 
 public class Stack<T> {
+    public Node getTop() {
+        return top;
+    }
+
+    public void setTop(Node top) {
+        this.top = top;
+    }
+
     Node top;
 
     public Stack(T value) {
