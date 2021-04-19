@@ -16,6 +16,7 @@ Home         | [Home](https://github.com/areejobaid94/data-structures-and-algori
  class 09    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1A5ttZv3xWrQadePrPpr1ZnjyIsjEl62qHl235zIgQD0/edit#gid=1807550832).
  class 10    | [Stacks and Queues](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
  class 11    | [queue-with-stacks](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
+ class 12    | [fifo-animal-shelter](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
 
 
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
@@ -145,3 +146,18 @@ Implementation: Singly Linked Lists
 * dequeue method => Big O = 1.
 
 ![](./assets/queue-with-stacks.png)
+
+# Class-12 Fifo animal shelter:
+
+## Challenges
+ Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
+ Implement the following methods:
+* enqueue(animal): adds animal to the shelter. animal can be either a dog or a cat object.
+* dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return null.
+
+## Approach & Efficiency
+
+* enqueue method => Big O = 1.
+* dequeue method => Big O = n.
+
+![](./assets/fifo-animal-shelter.png)
