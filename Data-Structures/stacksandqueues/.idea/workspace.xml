@@ -5,22 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/AnimalShelter2nSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/Models/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/Models/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/Models/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/stacksandqueues/AnimalShelter2nSolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/stacksandqueues/AnimalShelterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
