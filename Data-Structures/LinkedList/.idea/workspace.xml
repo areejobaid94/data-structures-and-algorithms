@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="" />
+    <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../stacksandqueues/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/utilities/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/utilities/AnimalShelter2nSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/utilities/Models/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/utilities/Models/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/utilities/Models/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacksandqueues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stacksandqueues/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacksandqueues/app/out/production/classes/stacksandqueues/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../stacksandqueues/app/out/production/classes/stacksandqueues/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacksandqueues/app/out/production/classes/stacksandqueues/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../stacksandqueues/app/out/production/classes/stacksandqueues/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacksandqueues/app/out/production/classes/stacksandqueues/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../stacksandqueues/app/out/production/classes/stacksandqueues/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/stacksandqueues/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/stacksandqueues/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/stacksandqueues/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stacksandqueues/app/src/main/java/stacksandqueues/Queue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../serving-web-content" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">

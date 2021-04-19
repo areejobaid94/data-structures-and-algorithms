@@ -1,8 +1,24 @@
 package stacksandqueues;
 
 public class Queue <T>{
-    Node front;
-    Node Rear;
+    public Node getFront() {
+        return front;
+    }
+
+    public void setFront(Node front) {
+        this.front = front;
+    }
+
+    public Node getRear() {
+        return Rear;
+    }
+
+    public void setRear(Node rear) {
+        Rear = rear;
+    }
+
+    public Node front;
+    public Node Rear;
 
     public Queue(T value) {
         this.front = new Node(value);

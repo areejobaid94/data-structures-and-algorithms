@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/stacksandqueues/PseudoQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/AnimalShelter2nSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/Models/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/Models/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/Models/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/stacksandqueues/AnimalShelter2nSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/stacksandqueues/AnimalShelterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/PseudoQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,21 +77,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.PseudoQueueTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.App" />
-      <module name="stacksandqueues.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AnimalShelter2nSolutionTest">
+    <configuration name="AnimalShelter2nSolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stacksandqueues.app.test" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +87,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.AnimalShelter2nSolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.testPseudoQueueEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalShelter2nSolutionTest.testAnimalShelter2nSolutionDequeueAnimalShelter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stacksandqueues.app.test" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="testPseudoQueueEnqueue" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.AnimalShelter2nSolutionTest" />
+      <option name="METHOD_NAME" value="testAnimalShelter2nSolutionDequeueAnimalShelter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.testPseudoQueueEnqueueDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalShelter2nSolutionTest.testAnimalShelter2nSolutionDequeueEmptyAnimalShelter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stacksandqueues.app.test" />
       <extension name="coverage">
         <pattern>
@@ -118,14 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="testPseudoQueueEnqueueDequeue" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.AnimalShelter2nSolutionTest" />
+      <option name="METHOD_NAME" value="testAnimalShelter2nSolutionDequeueEmptyAnimalShelter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.testPseudoQueueInstantiateEmptyPseudoQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalShelter2nSolutionTest.testAnimalShelter2nSolutionEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stacksandqueues.app.test" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +134,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="testPseudoQueueInstantiateEmptyPseudoQueue" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.AnimalShelter2nSolutionTest" />
+      <option name="METHOD_NAME" value="testAnimalShelter2nSolutionEnqueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalShelterTest.testAnimalShelterDequeueAnimalShelter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stacksandqueues.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="testAnimalShelterDequeueAnimalShelter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PseudoQueueTest" />
-        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueInstantiateEmptyPseudoQueue" />
-        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueEnqueueDequeue" />
-        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueEnqueue" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AnimalShelter2nSolutionTest" />
+        <item itemvalue="JUnit.AnimalShelter2nSolutionTest.testAnimalShelter2nSolutionDequeueAnimalShelter" />
+        <item itemvalue="JUnit.AnimalShelter2nSolutionTest.testAnimalShelter2nSolutionDequeueEmptyAnimalShelter" />
+        <item itemvalue="JUnit.AnimalShelter2nSolutionTest.testAnimalShelter2nSolutionEnqueue" />
+        <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDequeueAnimalShelter" />
       </list>
     </recent_temporary>
   </component>
@@ -220,15 +236,41 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/test/java/stacksandqueues/PseudoQueueTest.java</url>
           <line>17</line>
-          <properties class="stacksandqueues.PseudoQueueTest" method="testPseudoQueueEnqueueDequeue">
+          <properties class="stacksandqueues.PseudoQueueTest" method="testPseudoQueueDequeue">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/test/java/stacksandqueues/AnimalShelter2nSolutionTest.java</url>
+          <line>26</line>
+          <properties class="stacksandqueues.AnimalShelter2nSolutionTest" method="testAnimalShelter2nSolutionDequeueAnimalShelter">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/utilities/AnimalShelter2nSolution.java</url>
+          <line>15</line>
+          <properties class="utilities.AnimalShelter2nSolution" method="dequeue">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/test/java/stacksandqueues/QueueTest.java</url>
           <line>3</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/test/java/stacksandqueues/AnimalShelterTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
