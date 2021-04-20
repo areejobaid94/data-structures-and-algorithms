@@ -8,6 +8,7 @@ import utilities.AnimalShelter;
 import utilities.AnimalShelter2nSolution;
 import utilities.Models.Cat;
 import utilities.Models.Dog;
+import utilities.MultiBracketValidation;
 
 public class App {
     public static void main(String[] args) {
@@ -44,9 +45,9 @@ public class App {
 //        System.out.println(pseudoQueue.dequeue());
 //        System.out.println(pseudoQueue);
 //
-        Cat cat = new Cat("Mew",2.4,"anything","anything");
-        Cat cat1 = new Cat("anything",2.5,"anything","anything");
-        Dog dog = new Dog("anything",2.5,"anything","anything");
+//        Cat cat = new Cat("Mew",2.4,"anything","anything");
+//        Cat cat1 = new Cat("anything",2.5,"anything","anything");
+//        Dog dog = new Dog("anything",2.5,"anything","anything");
 //        AnimalShelter animalShelter = new AnimalShelter();
 //        animalShelter.enqueue(cat);
 //        animalShelter.enqueue(cat1);
@@ -55,17 +56,19 @@ public class App {
 //        System.out.println(animalShelter.dequeue("cat"));
 //        System.out.println(animalShelter.dequeue("cat"));
 //        System.out.println(animalShelter.dequeue("dog"));
-        AnimalShelter2nSolution animalShelter2nSolution = new AnimalShelter2nSolution();
-        animalShelter2nSolution.enqueue(cat);
-        animalShelter2nSolution.enqueue(cat1);
-        animalShelter2nSolution.enqueue(dog);
-        System.out.println(animalShelter2nSolution);
-        System.out.println(animalShelter2nSolution.dequeue("cat"));
-        System.out.println(animalShelter2nSolution);
-        System.out.println(animalShelter2nSolution.dequeue("cat"));
-        System.out.println(animalShelter2nSolution);
-        System.out.println(animalShelter2nSolution.dequeue("dog"));
-        System.out.println(animalShelter2nSolution);
-        System.out.println(animalShelter2nSolution.dequeue("dog"));
+//        AnimalShelter2nSolution animalShelter2nSolution = new AnimalShelter2nSolution();
+//        animalShelter2nSolution.enqueue(cat);
+//        animalShelter2nSolution.enqueue(cat1);
+//        animalShelter2nSolution.enqueue(dog);
+//        System.out.println(animalShelter2nSolution);
+//        System.out.println(animalShelter2nSolution.dequeue("cat"));
+//        System.out.println(animalShelter2nSolution);
+//        System.out.println(animalShelter2nSolution.dequeue("cat"));
+//        System.out.println(animalShelter2nSolution);
+//        System.out.println(animalShelter2nSolution.dequeue("dog"));
+//        System.out.println(animalShelter2nSolution);
+//        System.out.println(animalShelter2nSolution.dequeue("dog"));
+        System.out.println(MultiBracketValidation.multiBracketValidation("[({}]"));
+        MultiBracketValidation.multiBracketValidation(")");
     }
 }
