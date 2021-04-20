@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/utilities/MultiBracketValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/stacksandqueues/MultiBracketValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/.idea/stacksandqueues.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/utilities/MultiBracketValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/test/java/stacksandqueues/MultiBracketValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/stacksandqueues/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stacksandqueues/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../challenges/stacksandqueues" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
