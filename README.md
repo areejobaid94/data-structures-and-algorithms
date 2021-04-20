@@ -17,6 +17,7 @@ Home         | [Home](https://github.com/areejobaid94/data-structures-and-algori
  class 10    | [Stacks and Queues](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
  class 11    | [queue-with-stacks](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
  class 12    | [fifo-animal-shelter](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
+ class 13    | [Multi-bracket Validation](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
 
 
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
@@ -161,3 +162,19 @@ Implementation: Singly Linked Lists
 * dequeue method => Big O = n.
 
 ![](./assets/fifo-animal-shelter.png)
+
+
+# Class-13 Multi-bracket Validation:
+
+## Challenges
+The Method should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+
+* Round Brackets : ()
+* Square Brackets : []
+* Curly Brackets : {}
+
+## Approach & Efficiency
+* Multi-bracket Validation => Big O = n.
+
+
+![](./assets/Multi-bracket-Validation.png)
