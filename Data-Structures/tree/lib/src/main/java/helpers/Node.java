@@ -1,4 +1,4 @@
-package stacksandqueues;
+package helpers;
 
 public class Node <T>{
     public T value;
@@ -10,7 +10,7 @@ public class Node <T>{
     @Override
     public String toString() {
         return "Node{" +
-                "value=" +  value +
+                "value=" + value +
                 ", next=" + next +
                 '}';
     }
