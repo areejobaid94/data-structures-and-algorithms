@@ -9,6 +9,10 @@ import utilities.AnimalShelter2nSolution;
 import utilities.Models.Cat;
 import utilities.Models.Dog;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class App {
     public static void main(String[] args) {
 //        Stack stack = new Stack();
@@ -44,9 +48,9 @@ public class App {
 //        System.out.println(pseudoQueue.dequeue());
 //        System.out.println(pseudoQueue);
 //
-        Cat cat = new Cat("Mew",2.4,"anything","anything");
-        Cat cat1 = new Cat("anything",2.5,"anything","anything");
-        Dog dog = new Dog("anything",2.5,"anything","anything");
+//        Cat cat = new Cat("Mew",2.4,"anything","anything");
+//        Cat cat1 = new Cat("anything",2.5,"anything","anything");
+//        Dog dog = new Dog("anything",2.5,"anything","anything");
 //        AnimalShelter animalShelter = new AnimalShelter();
 //        animalShelter.enqueue(cat);
 //        animalShelter.enqueue(cat1);
@@ -55,17 +59,56 @@ public class App {
 //        System.out.println(animalShelter.dequeue("cat"));
 //        System.out.println(animalShelter.dequeue("cat"));
 //        System.out.println(animalShelter.dequeue("dog"));
-        AnimalShelter2nSolution animalShelter2nSolution = new AnimalShelter2nSolution();
-        animalShelter2nSolution.enqueue(cat);
-        animalShelter2nSolution.enqueue(cat1);
-        animalShelter2nSolution.enqueue(dog);
-        System.out.println(animalShelter2nSolution);
-        System.out.println(animalShelter2nSolution.dequeue("cat"));
-        System.out.println(animalShelter2nSolution);
-        System.out.println(animalShelter2nSolution.dequeue("cat"));
-        System.out.println(animalShelter2nSolution);
-        System.out.println(animalShelter2nSolution.dequeue("dog"));
-        System.out.println(animalShelter2nSolution);
-        System.out.println(animalShelter2nSolution.dequeue("dog"));
+//        AnimalShelter2nSolution animalShelter2nSolution = new AnimalShelter2nSolution();
+//        animalShelter2nSolution.enqueue(cat);
+//        animalShelter2nSolution.enqueue(cat1);
+//        animalShelter2nSolution.enqueue(dog);
+//        System.out.println(animalShelter2nSolution);
+//        System.out.println(animalShelter2nSolution.dequeue("cat"));
+//        System.out.println(animalShelter2nSolution);
+//        System.out.println(animalShelter2nSolution.dequeue("cat"));
+//        System.out.println(animalShelter2nSolution);
+//        System.out.println(animalShelter2nSolution.dequeue("dog"));
+//        System.out.println(animalShelter2nSolution);
+//        System.out.println(animalShelter2nSolution.dequeue("dog"));
+
+//        Stack maxStack  = new Stack();
+//        maxStack.push(4);
+//        maxStack.push(3);
+//        maxStack.push(7);
+//        maxStack.push(8);
+//        maxStack.push(1);
+//        maxStack.push(2);
+//        System.out.println(maxStack.getMaxStack());
+//        System.out.println(maxStack.pop());
+//        System.out.println(maxStack.getMaxStack());
+//        System.out.println(maxStack.pop());
+//        System.out.println(maxStack.getMaxStack());
+//        System.out.println(maxStack.pop());
+//        System.out.println(maxStack.getMaxStack());
+//        System.out.println(maxStack.pop());
+//        System.out.println(maxStack.getMaxStack());
+//        System.out.println(maxStack.pop());
+//        System.out.println(maxStack.getMaxStack());
+//        System.out.println(maxStack.pop());
+//        System.out.println(maxStack.getMaxStack());
+//        System.out.println(maxStack.pop());
+
+        Queue testQueue = new Queue();
+        testQueue.enqueue(1);
+        testQueue.enqueue(2);
+        testQueue.enqueue(3);
+        testQueue.enqueue(4);
+        testQueue.enqueue(5);
+
+
+        testQueue = new Queue();
+        testQueue.enqueue(1);
+        testQueue.enqueue(2);
+        testQueue.enqueue(3);
+        testQueue.enqueue(4);
+        testQueue.enqueue(5);
+        System.out.println( testQueue.DuckDuckGoose(2,testQueue));
+
     }
 }

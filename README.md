@@ -18,6 +18,7 @@ Home         | [Home](https://github.com/areejobaid94/data-structures-and-algori
  class 11    | [queue-with-stacks](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
  class 12    | [fifo-animal-shelter](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
  class 13    | [Multi-bracket Validation](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
+ class 15    | [Trees](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/tree).
 
 
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
@@ -178,3 +179,24 @@ The Method should take a string as its only argument, and should return a boolea
 
 
 ![](./assets/Multi-bracket-Validation.png)
+
+# Class-15 Multi-bracket Validation:
+
+## Challenges
+* Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
+* Create a BinaryTree class
+* Define a method for each of the depth first traversals called preOrder, inOrder, and postOrder which returns an array of the values, ordered appropriately.
+* Any exceptions or errors that come from your code should be semantic, capturable errors. For example, rather than a default error thrown by your language, your code should raise/throw a custom, semantic error that describes what went wrong in calling the methods you wrote for this lab.
+
+* Create a BinarySearchTree class
+* Define a method named add that accepts a value, and adds a new node with that value in the correct location in the binary  search tree.
+* Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
+
+## Approach & Efficiency
+* preOrder => Big O = n.
+* inOrder => Big O = n.
+* postOrder => Big O = n.
+* add => Big O = log n.
+* contains => Big O = log n.
+
+![](./assets/tree.png)

@@ -1,6 +1,4 @@
-package stacksandqueues;
-
-import java.util.ArrayList;
+package helpers;
 
 public class Queue <T>{
     public Node getFront() {
@@ -74,34 +72,6 @@ public class Queue <T>{
         return front == null;
     }
 
-    public Object DuckDuckGoose(int n, Queue queue){
-        Node current = queue.front;
-        while (queue.front.next != null){
-            int count = 1;
-            while (count != n ){
-                if(current == null)
-                    current = queue.front;
-                else
-                    current = current.next;
-                count++;
-            }
-            if(current == null)
-                current = queue.front;
-            if(current.next == null){
-                queue.dequeue();
-                current = queue.front;
-            }else {
-                current.next = current.next.next;
-                if(current.next == null && queue.front != null){
-                    queue.Rear = current;
-                    current = queue.front;
-                }else{
-                    current = current.next;
-                }
-            }
-        }
-        return current.value;
-    }
     @Override
     public String toString() {
         return "Queue{" +
