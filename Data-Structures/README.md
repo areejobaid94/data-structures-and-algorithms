@@ -169,4 +169,7 @@ The Method should take a string as its only argument, and should return a boolea
 * add => Big O = log n.
 * contains => Big O = log n.
 
+
 ![](./assets/tree.png)
+![](./assets/tree1.png)
+![](./assets/tree2.png)
