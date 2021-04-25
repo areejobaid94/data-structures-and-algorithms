@@ -1,6 +1,9 @@
 package LinkedList;
 import Node.Node;
 import Errors.Error;
+
+import java.util.ArrayList;
+
 public class LinkedList {
   Node head;
   int size;
@@ -207,5 +210,21 @@ public class LinkedList {
     };
     return true;
   };
+  public LinkedList marge (LinkedList list1, LinkedList list2){
+        Node current1 = list1.head;
+        Node current2 = list2.head;
+        while (current1 != null && current2 != null){
+          Node temp = current1.next;
+          current1.next = current2;
+          current1 = temp;
+          temp = current2.next;
+          if(current1 != null)
+            current2.next = current1;
+          current2 = temp;
+        }
+        return list1;
+  }
+
+
 };
 

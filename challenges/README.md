@@ -48,3 +48,15 @@ I solved this challenge by while loop and recreation .
 ![](./assets/BinarySearch.png)
 
 
+# Class-16 Find maximum binary tree:
+
+## Challenges
+Write an instance method called `find-maximum-value`. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+## Approach & Efficiency
+* Time com => Big O = n.
+* Space com => Big O = 1.
+
+
+![](./assets/maxtree1.jpg)
+![](./assets/maxtree2.jpg)
