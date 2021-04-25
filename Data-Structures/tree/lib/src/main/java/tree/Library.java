@@ -16,12 +16,13 @@ public class Library {
         System.out.println(binarySearchTree.contains(2));
         System.out.println(binarySearchTree.contains(3));
         System.out.println(binarySearchTree.contains(4));
-
+        System.out.println(binarySearchTree.contains(10));
         System.out.println(binarySearchTree.contains(1));
         System.out.println(binarySearchTree.contains(8));
         System.out.println(binarySearchTree.contains(9));
         System.out.println(binarySearchTree.postOrder());
         System.out.println(binarySearchTree.postOrder());
+        System.out.println(binarySearchTree.findMaximumValue());
         System.out.println(binarySearchTree.findMax());
 
 
