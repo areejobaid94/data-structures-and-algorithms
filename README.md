@@ -19,6 +19,7 @@ Home         | [Home](https://github.com/areejobaid94/data-structures-and-algori
  class 12    | [fifo-animal-shelter](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
  class 13    | [Multi-bracket Validation](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/stacksandqueues).
  class 15    | [Trees](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/tree).
+ class 16    | [Find max value in tree](https://github.com/areejobaid94/data-structures-and-algorithms/blob/main/Data-Structures/tree/lib/src/main/java/tree/BinaryTree.java).
 
 
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
