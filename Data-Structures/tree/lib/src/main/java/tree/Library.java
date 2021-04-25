@@ -10,18 +10,21 @@ public class Library {
         binarySearchTree.add(2);
         binarySearchTree.add(3);
         binarySearchTree.add(4);
-        binarySearchTree.add(5);
         binarySearchTree.add(1);
 
         System.out.println(binarySearchTree);
         System.out.println(binarySearchTree.contains(2));
         System.out.println(binarySearchTree.contains(3));
         System.out.println(binarySearchTree.contains(4));
-        System.out.println(binarySearchTree.contains(5));
+
         System.out.println(binarySearchTree.contains(1));
         System.out.println(binarySearchTree.contains(8));
         System.out.println(binarySearchTree.contains(9));
         System.out.println(binarySearchTree.postOrder());
+        System.out.println(binarySearchTree.postOrder());
+        System.out.println(binarySearchTree.findMax());
+
+
     }
 
 }

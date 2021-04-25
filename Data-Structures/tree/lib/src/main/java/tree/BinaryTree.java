@@ -40,6 +40,44 @@ public class BinaryTree <T>{
         return output;
     }
 
+    public int findMax(){
+        int max = 0;
+        int value = (int) this.root.value;
+        try {
+            if(max < value)max =value;
+            if(this.root.left != null){
+                value =  findMax(this.root.left);
+                if(max < value)max =value;
+            }
+            if (this.root.right != null) {
+                value = findMax(this.root.right);
+                if(max < value)max =value;
+            }
+        }catch (Exception ex){
+            System.out.println(error.Errors.unexpectedError());
+        }
+        return max;
+    }
+
+    public int findMax(Node root){
+        int max = 0;
+        int value = (int) root.value;
+        try {
+            if(max < value)max =value;
+            if(root.left != null){
+                value =  findMax(root.left);
+                if(max < value)max =value;
+            }
+            if (root.right != null) {
+                value = findMax(root.right);
+                if(max < value)max =value;
+            }
+        }catch (Exception ex){
+            System.out.println(error.Errors.unexpectedError());
+        }
+        return max;
+    }
+
 
     public String inOrder(Node root){
         String output = "";

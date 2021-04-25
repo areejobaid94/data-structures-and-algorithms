@@ -3,20 +3,44 @@
  */
 package LinkedList;
 
+import java.util.ArrayList;
+
 public class App {
     public static void main(String[] args) {
-      LinkedList linkedList = new LinkedList();
-        System.out.println(linkedList.palindromeLast(linkedList));
-        System.out.println(linkedList.insert(2));
-      System.out.println(linkedList.insert(1));
-       System.out.println(linkedList);
-      LinkedList linkedList2 = new LinkedList();
-      linkedList2.append(4);
+        LinkedList linkedList = new LinkedList();
+        linkedList.append(1);
+        linkedList.append(3);
+        linkedList.append(5);
+        linkedList.append(7);
+        LinkedList linkedList2 = new LinkedList();
+        linkedList2.append(2);
+        linkedList2.append(4);
+        linkedList2.append(8);
+        System.out.println(linkedList.marge(linkedList,linkedList2));
+        ArrayList<Object> arrayList = new ArrayList<>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
+        arrayList.add(4);
+        arrayList.add(5);
+        arrayList.add(6);
+        arrayList.add(7);
+        arrayList.add(8);
+        System.out.println(App.binarySearch(1,arrayList));
+    }
 
-      System.out.println(linkedList.toString());
-      System.out.println(linkedList2.toString());
-       System.out.println(linkedList.zipLists2nd(linkedList, linkedList2));
-//      System.out.println(linkedList1.toString());
-
+    public static int binarySearch(Object ele, ArrayList<Object> array){
+        int start = 0;
+        int end = array.size() - 1;
+        while (start <= end){
+            int mid =start + ( end - start) / 2;
+            if(array.get(mid) == ele)return mid;
+            if((int) ele < (int) array.get(mid)){
+                end = mid - 1;
+            }else {
+                start = mid + 1;
+            }
+        }
+        return -1;
     }
 }
