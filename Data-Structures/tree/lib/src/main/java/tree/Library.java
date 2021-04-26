@@ -5,27 +5,37 @@ package tree;
 
 public class Library {
     public static void main(String[] args) {
-        Node node = new Node();
-        BinarySearchTree binarySearchTree = new BinarySearchTree();
-        binarySearchTree.add(2);
-        binarySearchTree.add(3);
-        binarySearchTree.add(4);
-        binarySearchTree.add(1);
+//        Node node = new Node();
+//        BinarySearchTree binarySearchTree = new BinarySearchTree();
+//        binarySearchTree.add(2);
+//        binarySearchTree.add(3);
+//        binarySearchTree.add(4);
+//        binarySearchTree.add(1);
+//
+//        System.out.println(binarySearchTree);
+//        System.out.println(binarySearchTree.contains(2));
+//        System.out.println(binarySearchTree.contains(3));
+//        System.out.println(binarySearchTree.contains(4));
+//        System.out.println(binarySearchTree.contains(10));
+//        System.out.println(binarySearchTree.contains(1));
+//        System.out.println(binarySearchTree.contains(8));
+//        System.out.println(binarySearchTree.contains(9));
+//        System.out.println(binarySearchTree.postOrder());
+//        System.out.println(binarySearchTree.postOrder());
+//        System.out.println(binarySearchTree.findMaximumValue());
+//        System.out.println(binarySearchTree.findMax());
 
-        System.out.println(binarySearchTree);
-        System.out.println(binarySearchTree.contains(2));
-        System.out.println(binarySearchTree.contains(3));
-        System.out.println(binarySearchTree.contains(4));
-        System.out.println(binarySearchTree.contains(10));
-        System.out.println(binarySearchTree.contains(1));
-        System.out.println(binarySearchTree.contains(8));
-        System.out.println(binarySearchTree.contains(9));
-        System.out.println(binarySearchTree.postOrder());
-        System.out.println(binarySearchTree.postOrder());
-        System.out.println(binarySearchTree.findMaximumValue());
-        System.out.println(binarySearchTree.findMax());
+        BreadthFirst breadthFirst = new BreadthFirst();
+        breadthFirst.add(2);
+        breadthFirst.add(3);
+        breadthFirst.add(4);
+        breadthFirst.add(1);
+        breadthFirst.add(7);
+        breadthFirst.add(0);
 
-
+//        System.out.println("binarySearchTree.findMax()");
+        System.out.println(BreadthFirst.breadthFirst(breadthFirst));
+        System.out.println(breadthFirst.breadthFirst());
     }
 
 }
