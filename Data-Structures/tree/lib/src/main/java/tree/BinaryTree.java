@@ -125,7 +125,7 @@ public class BinaryTree <T>{
     }
 
     // overload findMaximumValue
-    public Object findMaximumValue(Node root){
+    public static Object findMaximumValue(Node root){
         if(root == null)return 0;
         Integer value = (Integer) root.value;
         Integer max = value ;

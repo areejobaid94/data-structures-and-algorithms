@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/error/Errors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/helpers/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/helpers/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/out/production/classes/stacksandqueues/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/out/production/classes/stacksandqueues/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/out/production/classes/stacksandqueues/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/out/production/classes/stacksandqueues/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/out/production/classes/stacksandqueues/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/out/production/classes/stacksandqueues/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/MaxStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/MaxStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../challenges/stacksandqueues/app/src/main/java/stacksandqueues/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/BreadthFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tree/lib/src/test/java/tree/BreadthFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

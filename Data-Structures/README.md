@@ -172,3 +172,30 @@ The Method should take a string as its only argument, and should return a boolea
 ![](./assets/tree.png)
 ![](./assets/tree1.jpg)
 ![](./assets/tree2.jpg)
+
+
+# Class-16 Find maximum binary tree:
+
+## Challenges
+Write an instance method called `find-maximum-value`. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+## Approach & Efficiency
+* Time com => Big O = n.
+* Space com => Big O = 1.
+
+
+![](./assets/maxtree1.jpg)
+![](./assets/maxtree2.jpg)
+
+
+
+# Class-17 Breadth First:
+
+## Challenges
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
+
+## Approach & Efficiency
+* Time com => Big O = n.
+* Space com => Big O = n^2.
+
+![](./assets/BreadthFirst.png)
