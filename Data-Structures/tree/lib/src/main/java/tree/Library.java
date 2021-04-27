@@ -3,6 +3,11 @@
  */
 package tree;
 
+import tree.utilities.FizzBuzzTree;
+import tree.utilities.KAnyNode;
+
+import java.util.ArrayList;
+
 public class Library {
     public static void main(String[] args) {
 //        Node node = new Node();
@@ -34,8 +39,27 @@ public class Library {
         breadthFirst.add(0);
 
 //        System.out.println("binarySearchTree.findMax()");
-        System.out.println(BreadthFirst.breadthFirst(breadthFirst));
-        System.out.println(breadthFirst.breadthFirst());
+//        System.out.println(BreadthFirst.breadthFirst(breadthFirst));
+//        System.out.println(breadthFirst.breadthFirst());
+
+        Tree tree = new Tree();
+        ArrayList<KAnyNode> arrayList = new ArrayList<>();
+        arrayList.add(new KAnyNode(5));
+        arrayList.add(new KAnyNode(6));
+        KAnyNode kAnyNode1 = new KAnyNode(2);
+        KAnyNode kAnyNode3 = new KAnyNode(3);
+        KAnyNode kAnyNode4 = new KAnyNode(4);
+        kAnyNode4.children  =arrayList;
+        ArrayList<KAnyNode> arrayList2 = new ArrayList<>();
+
+        tree.root = new KAnyNode(1);
+        arrayList2.add(kAnyNode4);
+        arrayList2.add(kAnyNode3);
+        arrayList2.add(kAnyNode1);
+        tree.root.children =arrayList2;
+        System.out.println(tree);
+        System.out.println(FizzBuzzTree.fizzBuzzTree(tree));
+
     }
 
 }

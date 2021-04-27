@@ -199,3 +199,17 @@ Write a breadth first traversal method which takes a Binary Tree as its unique i
 * Space com => Big O = n^2.
 
 ![](./assets/BreadthFirst.png)
+
+
+# Class-18 Breadth First:
+
+## Challenges
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
+
+## Approach & Efficiency
+* Time com => Big O = n^2.
+* Space com => Big O = n.
+
+
+![](./assets/FizzBuzz.jpg)
+![](./assets/FizzBuzz.jpg)

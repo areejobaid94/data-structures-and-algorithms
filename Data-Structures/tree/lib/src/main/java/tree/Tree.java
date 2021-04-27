@@ -1,14 +1,23 @@
 package tree;
 
-public class Tree <T>{
-    private Node root;
+import tree.utilities.KAnyNode;
 
-    public Tree(T value) {
-        this.root = new Node(value);
+import java.util.ArrayList;
+
+public class Tree <T>{
+    public KAnyNode root;
+    public Tree(T value,int maxNrOfChildren) {
+
+        this.root = new KAnyNode(value);
     }
 
     public Tree() {
     }
 
-
+    @Override
+    public String toString() {
+        return "Tree{" +
+                "root=" + root +
+                '}';
+    }
 }
