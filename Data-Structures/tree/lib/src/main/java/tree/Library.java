@@ -52,9 +52,10 @@ public class Library {
         kAnyNode4.children  =arrayList;
         ArrayList<KAnyNode> arrayList2 = new ArrayList<>();
 
-        tree.root = new KAnyNode("1");
+        tree.root = new KAnyNode(1);
         arrayList2.add(kAnyNode4);
         arrayList2.add(kAnyNode3);
+        arrayList2.add(kAnyNode1);
         tree.root.children =arrayList2;
         System.out.println(tree);
         System.out.println(FizzBuzzTree.fizzBuzzTree(tree));

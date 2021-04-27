@@ -9,24 +9,24 @@ import tree.Tree;
 import java.util.ArrayList;
 
 public class FizzBuzzTree {
-
-    public static ArrayList fizzBuzzTree(Tree tree){
-        ArrayList output = new ArrayList();
+    public static Tree output = new Tree();
+    public static Tree fizzBuzzTree(Tree tree){
         if(tree.root == null)return output;
-        output.addAll(fizzBuzzTree(tree.root,output));
+        output.root = new KAnyNode(checkValue(tree.root.value));
+        fizzBuzzTree(tree.root,output.root);
         return output;
     }
 
-    public static ArrayList fizzBuzzTree(KAnyNode root,ArrayList output){
+    public static void fizzBuzzTree(KAnyNode root,KAnyNode outputRoot){
         for (int i = 0; i < root.children.size() ; i++){
-            output.add(checkValue(fizzBuzzTree(root.children.get(i),output)));
-
+            KAnyNode node = new KAnyNode( checkValue(root.children.get(i).value));
+            outputRoot.children.add(node);
+            fizzBuzzTree(root.children.get(i),outputRoot.children.get(i));
         }
-        return output;
     }
 
     private static Object checkValue(Object val){
-       return ((int)val) % 3 == 0 && ((int)val) % 5 == 0 ?  "FizzBuzz" : ((int)val) % 3 == 0 ? "Fizz" :  ((int)val) % 3 == 0 ? "Buzz": val;
+       return ((int)val) % 3 == 0 && ((int)val) % 5 == 0 ?  "FizzBuzz" : ((int)val) % 3 == 0 ? "Fizz" :  ((int)val) % 5 == 0 ? "Buzz": val.toString();
     }
 
 

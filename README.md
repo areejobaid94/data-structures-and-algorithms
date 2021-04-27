@@ -21,7 +21,7 @@ Home         | [Home](https://github.com/areejobaid94/data-structures-and-algori
  class 15    | [Trees](https://github.com/areejobaid94/data-structures-and-algorithms/tree/main/Data-Structures/tree).
  class 16    | [Find max value in tree](https://github.com/areejobaid94/data-structures-and-algorithms/blob/main/Data-Structures/tree/lib/src/main/java/tree/BinaryTree.java).
  class 17    | [Breadth First](https://github.com/areejobaid94/data-structures-and-algorithms/blob/main/Data-Structures/tree/lib/src/main/java/tree/BreadthFirst.java).
-
+ class 18    | [FizzBuzzTree ](https://github.com/areejobaid94/data-structures-and-algorithms/blob/main/Data-Structures/tree/lib/src/main/java/tree/FizzBuzzTree.java).
 
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
 
@@ -221,14 +221,15 @@ Write an instance method called `find-maximum-value`. Without utilizing any of t
 
 
 
-# Class-17 Breadth First:
+# Class-18 Breadth First:
 
 ## Challenges
 Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
 
 ## Approach & Efficiency
-* Time com => Big O = n.
-* Space com => Big O = n^2.
+* Time com => Big O = n^2.
+* Space com => Big O = n.
 
 
-![](./assets/BreadthFirst.png)
+![](./assets/FizzBuzz.jpg)
+![](./assets/FizzBuzz.jpg)
