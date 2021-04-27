@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/BreadthFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tree/lib/src/test/java/tree/BreadthFirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/lib/src/main/java/tree/Library.java" afterDir="false" />
-    </list>
+    <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
