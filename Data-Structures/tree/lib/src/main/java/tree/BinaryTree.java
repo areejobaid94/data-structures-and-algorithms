@@ -40,6 +40,26 @@ public class BinaryTree <T>{
         return output;
     }
 
+    public static int counterOfLeafs(Node root){
+        Integer sum = 0;
+        try {
+            if(root == null)return sum;
+            if(root.left != null)
+                sum += counterOfLeafs(root.left);
+            if (root.right != null)
+                sum += counterOfLeafs(root.right);
+            if(root.right == null && root.left == null)
+                sum++;
+        }catch (Exception ex){
+            System.out.println(error.Errors.unexpectedError());
+        }
+        return sum;
+    }
+
+    public static boolean isSameNumOfLeafs(BinaryTree tree1, BinaryTree tree2){
+        return counterOfLeafs(tree1.root) == counterOfLeafs(tree2.root);
+    }
+
     public String inOrder(Node root){
         String output = "";
         try {

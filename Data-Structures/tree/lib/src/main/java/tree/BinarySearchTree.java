@@ -47,6 +47,24 @@ public class BinarySearchTree<T> extends BinaryTree {
         return false;
     };
 
+    public static Object sumOfOdd  (Node root){
+        Object sum = 0;
+        try {
+            if(root == null)return sum;
+            if((Integer) root.value % 2 != 0)
+                sum = (Integer) sum + (Integer)  root.value;
+
+            if(root.left != null)
+                sum = (Integer) sum +(Integer) sumOfOdd(root.left);
+
+            if (root.right != null)
+                sum = (Integer) sum + (Integer) sumOfOdd(root.right);
+        }catch (Exception ex){
+            System.out.println(error.Errors.unexpectedError());
+        }
+        return sum;
+    }
+
     @Override
     public String toString() {
         return "BinarySearchTree{" +
