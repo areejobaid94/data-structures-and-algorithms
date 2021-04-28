@@ -11,11 +11,27 @@ import java.util.ArrayList;
 public class Library {
     public static void main(String[] args) {
 //        Node node = new Node();
-//        BinarySearchTree binarySearchTree = new BinarySearchTree();
-//        binarySearchTree.add(2);
-//        binarySearchTree.add(3);
-//        binarySearchTree.add(4);
-//        binarySearchTree.add(1);
+        BinarySearchTree binarySearchTree = new BinarySearchTree();
+        binarySearchTree.add(2);
+        binarySearchTree.add(3);
+        binarySearchTree.add(4);
+        binarySearchTree.add(1);
+        binarySearchTree.add(7);
+        binarySearchTree.add(0);
+        binarySearchTree.add(9);
+
+        System.out.println(BinarySearchTree.sumOfOdd(binarySearchTree.root));
+        System.out.println(BinaryTree.counterOfLeafs(binarySearchTree.root));
+        System.out.println(binarySearchTree);
+        BinarySearchTree binarySearchTree2 = new BinarySearchTree();
+        binarySearchTree2.add(2);
+        binarySearchTree2.add(3);
+        binarySearchTree2.add(4);
+        binarySearchTree2.add(1);
+        binarySearchTree2.add(0);
+        System.out.println(binarySearchTree2);
+
+        System.out.println(BreadthFirst.isSameNumOfLeafs(binarySearchTree, binarySearchTree2));
 //
 //        System.out.println(binarySearchTree);
 //        System.out.println(binarySearchTree.contains(2));
@@ -31,12 +47,13 @@ public class Library {
 //        System.out.println(binarySearchTree.findMax());
 
         BreadthFirst breadthFirst = new BreadthFirst();
-        breadthFirst.add(2);
-        breadthFirst.add(3);
-        breadthFirst.add(4);
-        breadthFirst.add(1);
-        breadthFirst.add(7);
-        breadthFirst.add(0);
+        binarySearchTree.add(2);
+        binarySearchTree.add(3);
+        binarySearchTree.add(4);
+        binarySearchTree.add(1);
+        binarySearchTree.add(7);
+        binarySearchTree.add(0);
+        binarySearchTree.add(9);
 
 //        System.out.println("binarySearchTree.findMax()");
 //        System.out.println(BreadthFirst.breadthFirst(breadthFirst));
