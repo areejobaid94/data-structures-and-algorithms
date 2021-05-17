@@ -10,34 +10,34 @@
  public class MergeSort {
     public static ArrayList<Object> Mergesort(ArrayList<Object> array){
 
-        // Firt phase => n=3 
-        // Second phase => n=1
-        // Third phase => n=2 
-        // fourth phase => n=1       
-        // Fifth phase  => n=1
+        // Firt pass => n=3 
+        // Second pass => n=1
+        // Third pass => n=2 
+        // fourth pass => n=1       
+        // Fifth pass  => n=1
         int n = array.size();
 
         if(n > 1){
-            // Firt phase => mid=1  
-            // Second phase => mid=1
-            // Third phase => mid=1   
-            // fourth phase => mid=1    
-            // Fifth phase => mid=1  
+            // Firt pass => mid=1  
+            // Second pass => mid=1
+            // Third pass => mid=1   
+            // fourth pass => mid=1    
+            // Fifth pass => mid=1  
             int mid = (int) Math.floor(n / 2);
             
-            // Firt phase => left= [100] 
-            // Second phase => left= [100]
-            // Third phase => left= [20]    
-            // fourth phase => left= [20]  
-            // Fifth phase  => left= [20]  
+            // Firt pass => left= [100] 
+            // Second pass => left= [100]
+            // Third pass => left= [20]    
+            // fourth pass => left= [20]  
+            // Fifth pass  => left= [20]  
             ArrayList left = new ArrayList(array.subList(0 , mid));
 
 
-            // Firt phase => right= [20, 3] 
-            // Second phase => right= [20, 3]
-            // Third phase => right= [3]
-            // fourth phase => right= [3]   
-            // Fifth phase  => right= [3] 
+            // Firt pass => right= [20, 3] 
+            // Second pass => right= [20, 3]
+            // Third pass => right= [3]
+            // fourth pass => right= [3]   
+            // Fifth pass  => right= [3] 
             ArrayList right = new ArrayList(array.subList(mid, array.size()));
 
             Mergesort(left);
@@ -51,34 +51,34 @@
         return array;
     }
 
-    //////////////Start From Phase Five /////////////
+    //////////////Start From pass Five /////////////
     public static void Merge(ArrayList left,ArrayList right,ArrayList arr){
 
 
-        // Fifth phase  => i = 0
-        // Fifth phase  => j = 0
-        // Fifth phase  => k = 0
+        // Fifth pass  => i = 0
+        // Fifth pass  => j = 0
+        // Fifth pass  => k = 0
         int i = 0;
         int j = 0;
         int k = 0;
 
         while( i < left.size() && j < right.size()){
-            // Fifth phase  => i = 0
-            // Fifth phase  => j = 0 
-            // Fifth phase  => k = 0
+            // Fifth pass  => i = 0
+            // Fifth pass  => j = 0 
+            // Fifth pass  => k = 0
             if((int) left.get(i) <= (int) right.get(j)){
                 arr.set(k,left.get(i));
                 i = i + 1;
             }
             else{
-                // Fifth phase  => arr[0] = 3    
+                // Fifth pass  => arr[0] = 3    
                 arr.set(k,right.get(j));
 
-                // Fifth phase  => j = 1     
+                // Fifth pass  => j = 1     
                 j = j + 1;
             }
 
-            // Fifth phase  => k = 1   
+            // Fifth pass  => k = 1   
             k = k + 1;
         }
         if(i == left.size()){
