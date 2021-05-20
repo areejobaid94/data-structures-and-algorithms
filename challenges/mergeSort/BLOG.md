@@ -44,14 +44,14 @@ Sample Array: `[100, 20, 3]`
 
 ##### Pass 1:
 
-![](./187609653_1169576930154612_4757654763045491921_n.jpg)
+![](./pass1.jpg)
 
 In first pass left part of the array is `[100]` and the right `[30, 3]` and the array that we use array `[100, 20, 3]`.
 
 
 ##### Pass 2:
 
-![](./187609653_1169576930154612_4757654763045491921_n.jpg)
+![](./pass2.jpg)
 
 In 2nd pass left part of the array is `[20]` and the right `[3]` and the array that we use array `[20, 3]`, here we call `Merge` Method,
 the `Marge` will sort the array to be `[3, 20]`   
@@ -59,7 +59,7 @@ the `Marge` will sort the array to be `[3, 20]`
 
 ##### Pass 3:
 
-![](./188096577_302895637987228_8361250348877519485_n.jpg)
+![](./pass3.jpg)
 
 In theard pass left part of the array is `[100]` and the right `[3,20]` and the array that we use array `[100, 3, 20]`, here we call `Merge` Method, the `Marge` will sort the array to be `[3, 20, 100]`   
 
