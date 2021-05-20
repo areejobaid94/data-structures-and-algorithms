@@ -44,14 +44,6 @@ Here the item in the secound index is 9 and the item in the secound index is 1 s
 In third pass we check if the values before the item in index 3 if less than this item, then sweech the items.
 Here the item in the third index is 4 and the item in the third index is 4 so we sweech between the values.
 
-
-### Efficency
-
-Time: O(n^2)
-The basic operation of this algorithm is comparison. This will happen n * (n-1) number of times…concluding the algorithm to be n squared.
-Space: O(1)
-No additional space is being created. This array is being sorted in place…keeping the space at constant O(1).
-
 ```
 ArrayList array = new ArrayList();
 array.add(9);
@@ -93,5 +85,12 @@ public class InsertionSort {
         return array;
     }
 }
-
 ```
+
+### Efficency
+
+Time: O(n^2)
+The basic operation of this algorithm is comparison. This will happen n * (n-1) number of times…concluding the algorithm to be n squared.
+Space: O(1)
+No additional space is being created. This array is being sorted in place…keeping the space at constant O(1).
+
