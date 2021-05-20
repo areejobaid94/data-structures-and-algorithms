@@ -17,13 +17,13 @@ Implement a Hashtable with the following methods:
 
 #### Big O of `hash`: O(n) Because we have while loop.
 
-#### Space comp of `add`: O(n) Because we have hash method which has n time complexity.
+#### Space comp of `add`: O(n) Because we add Linkedlist.
 
-#### Space comp of `get`: O(1) Because we have while loop and hash method which has n time complexity.
+#### Space comp of `get`: O(1).
 
-#### Space comp `contains`: O(1) Because we have while loop and hash method which has n time complexity.
+#### Space comp `contains`: O(1).
 
-#### Space comp `hash`: O(1) Because we have while loop.
+#### Space comp `hash`: O(1).
 
 ## API
 <!-- Description of each method publicly available in each of your hashtable -->
