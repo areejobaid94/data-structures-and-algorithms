@@ -12,11 +12,10 @@ public class App {
 
     public static void main(String[] args) {
         ArrayList array = new ArrayList();
+        array.add(100);
         array.add(20);
         array.add(3);
-        array.add(1);
-        array.add(8);
-        array.add(100);
+
         System.out.println(MergeSort.Mergesort(array));
     }
 }
