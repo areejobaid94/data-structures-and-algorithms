@@ -47,7 +47,6 @@ public class Hashtable<T> {
         }
         linkedList.insert((T) newNode);
         hashNodesList[index] = (T) linkedList;
-
     }
 
     public T get(T key) {

@@ -17,6 +17,14 @@ Implement a Hashtable with the following methods:
 
 #### Big O of `hash`: O(n) Because we have while loop.
 
+#### Space comp of `add`: O(n) Because we have hash method which has n time complexity.
+
+#### Space comp of `get`: O(1) Because we have while loop and hash method which has n time complexity.
+
+#### Space comp `contains`: O(1) Because we have while loop and hash method which has n time complexity.
+
+#### Space comp `hash`: O(1) Because we have while loop.
+
 ## API
 <!-- Description of each method publicly available in each of your hashtable -->
 1- `add`: takes in both the key and value. This method should hash the key, and add the key and value pair to the table, handling collisions as needed.
