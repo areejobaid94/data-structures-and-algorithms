@@ -1,8 +1,8 @@
 # Merge Sort: 
 Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. See the following C implementation for details.
 
-### Pseudocode
 
+### Pseudocode
 ```
 ALGORITHM Mergesort(arr)
     DECLARE n <-- arr.length
@@ -44,26 +44,25 @@ Sample Array: `[100, 20, 3]`
 
 ##### Pass 1:
 
-![](./187609653_1169576930154612_4757654763045491921_n.jpg)
+![](./pass1.jpg)
 
-In first pass we check if the values before the item in index 1 if less than this item, then sweech the items.
-Here the item in the first index is 9 and the item in the 0 index is 0 so we sweech between the values.
+In first pass left part of the array is `[100]` and the right `[30, 3]` and the array that we use array `[100, 20, 3]`.
 
 
 ##### Pass 2:
 
-![](./187845675_315273336879352_5505779317445785698_n.jpg)
+![](./pass2.jpg)
 
-In secound pass we check if the values before the item in index 2 if less than this item, then sweech the items.
-Here the item in the secound index is 9 and the item in the secound index is 1 so we sweech between the values.
+In 2nd pass left part of the array is `[20]` and the right `[3]` and the array that we use array `[20, 3]`, here we call `Merge` Method,
+the `Marge` will sort the array to be `[3, 20]`   
 
 
 ##### Pass 3:
 
-![](./188096577_302895637987228_8361250348877519485_n.jpg)
+![](./pass3.jpg)
 
-In third pass we check if the values before the item in index 3 if less than this item, then sweech the items.
-Here the item in the third index is 4 and the item in the third index is 4 so we sweech between the values.
+In theard pass left part of the array is `[100]` and the right `[3,20]` and the array that we use array `[100, 3, 20]`, here we call `Merge` Method, the `Marge` will sort the array to be `[3, 20, 100]`   
+
 
 ```
  Mergesort([100, 20, 3]);

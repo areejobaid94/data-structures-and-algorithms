@@ -23,7 +23,7 @@ public class MergeSort {
         int j = 0;
         int k = 0;
 
-        while( i < left.size() && j < right.size()){
+         while( i < left.size() && j < right.size()){
             if((int) left.get(i) <= (int) right.get(j)){
                 arr.set(k,left.get(i));
                 i = i + 1;
