@@ -12,13 +12,9 @@ public class App {
 
     public static void main(String[] args) {
         ArrayList arrayList = new ArrayList();
-        arrayList.add(1);
         arrayList.add(100);
-        arrayList.add(10);
-        arrayList.add(10000);
-        arrayList.add(0);
-        arrayList.add(1000);
-        System.out.println(arrayList);
+        arrayList.add(20);
+        arrayList.add(3);
         System.out.println(QuickSort.quickSort(arrayList));
     }
 }
