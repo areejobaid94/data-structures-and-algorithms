@@ -101,4 +101,20 @@ The poviot is 20, after check if items are bigger than the poviot, put it in the
 
 ### Efficency
 
-The best-case time complexity of Quicksort is: O(n log n)
+###### Complexity Analysis of Quick Sort
+For an array, in which partitioning leads to unbalanced subarrays, to an extent where on the left side there are no elements, with all the elements greater than the pivot, hence on the right side.
+
+And if keep on getting unbalanced subarrays, then the running time is the worst case, which is O(n2)
+
+Where as if partitioning leads to almost equal subarrays, then the running time is the best, with time complexity as O(n*log n).
+
+* Worst Case Time Complexity [ Big-O ]: `O(n2)`
+
+* Best Case Time Complexity [Big-omega]: `O(n*log n)`
+
+* Average Time Complexity [Big-theta]: `O(n*log n)`
+
+* Space Complexity: `O(n*log n)`
+
+* Space required by quick sort is very less, only O(n*log n) additional space is required.
+Quick sort is not a stable sorting technique, so it might change the occurence of two similar elements in the list while sorting.
