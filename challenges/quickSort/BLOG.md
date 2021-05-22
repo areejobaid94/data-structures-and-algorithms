@@ -114,6 +114,9 @@ Where as if partitioning leads to almost equal subarrays, then the running time 
 
 * Average Time Complexity [Big-theta]: `O(n*log n)`
 
+As we know now, that if subarrays partitioning produced after partitioning are unbalanced, quick sort will take more time to finish. If someone knows that you pick the last index as pivot all the time, they can intentionally provide you with array which will result in worst-case running time for quick sort.
+
+To avoid this, you can pick random pivot element too. It won't make any difference in the algorithm, as all you need to do is, pick a random element from the array, swap it with element at the last index, make it the pivot and carry on with quick sort.
 * Space Complexity: `O(n*log n)`
 
 * Space required by quick sort is very less, only O(n*log n) additional space is required.
