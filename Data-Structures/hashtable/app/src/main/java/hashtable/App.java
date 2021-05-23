@@ -5,6 +5,8 @@ package hashtable;
 
 import RepeatedWord.RepeatedWord;
 
+import RepeatedWord.RepeatedWordStretchGoals;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
@@ -12,6 +14,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(RepeatedWord.getFirstRepeatedWord("arje n a n"));
-
+        System.out.println(RepeatedWordStretchGoals.getCountOfWords("arje n a n a a"));
+        System.out.println(RepeatedWordStretchGoals.getMostFrequentlyUsed("arje n a n a a"));
     }
 }
