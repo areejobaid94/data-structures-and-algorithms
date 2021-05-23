@@ -3,6 +3,7 @@
 * Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
 
 ## Whiteboard Process
+![](./img/lab31.png)
 [Link](https://docs.google.com/drawings/d/1q_BQ10IiLeRI4ySWByW_nF8EiEQaKwMBbE_ZW0aQVCk/edit?usp=sharing)
 
 ## Approach & Efficiency
