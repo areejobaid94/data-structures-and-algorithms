@@ -55,7 +55,9 @@ public class Hashtable<T> {
             LinkedList linkedList = (LinkedList) hashNodesList[index];
             Node current = linkedList.head;
             while (current != null) {
-                if (((HashTableNode) current.val).getKey() == key) {
+                HashTableNode node =  ((HashTableNode) current.val);
+                String nodeKey =(String) node.getKey();
+                if (nodeKey.equals(key)) {
                     return (T) ((HashTableNode) current.val).getValue();
                 }
                 current=current.next;
@@ -85,5 +87,6 @@ public class Hashtable<T> {
                 "hashNodesList=" + Arrays.toString(hashNodesList) +
                 '}';
     }
+
 }
 

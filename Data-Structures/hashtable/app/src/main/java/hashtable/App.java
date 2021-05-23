@@ -3,14 +3,15 @@
  */
 package hashtable;
 
+import RepeatedWord.RepeatedWord;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
+        System.out.println(RepeatedWord.getFirstRepeatedWord("arje n a n"));
 
-        System.out.println(new Hashtable().hash("areej"));
-        System.out.println(new Hashtable().hash("arjee"));
     }
 }
