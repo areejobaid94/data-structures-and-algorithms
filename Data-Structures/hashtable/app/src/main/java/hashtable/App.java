@@ -6,6 +6,9 @@ package hashtable;
 import RepeatedWord.RepeatedWord;
 
 import RepeatedWord.RepeatedWordStretchGoals;
+import TreeIntersection.TreeIntersectionStretchGoals;
+import tree.BinaryTree;
+import TreeIntersection.TreeIntersection;
 
 public class App {
     public String getGreeting() {
@@ -16,5 +19,26 @@ public class App {
         System.out.println(RepeatedWord.getFirstRepeatedWord("arje n a n"));
         System.out.println(RepeatedWordStretchGoals.getCountOfWords("arje n a n a a"));
         System.out.println(RepeatedWordStretchGoals.getMostFrequentlyUsed("arje n a n a a"));
+        BinaryTree binaryTree1 = new BinaryTree();
+        binaryTree1.add(1);
+        binaryTree1.add(2);
+        binaryTree1.add(3);
+        binaryTree1.add(4);
+        binaryTree1.add(5);
+        binaryTree1.add(6);
+        binaryTree1.add(7);
+
+
+        BinaryTree binaryTree2 = new BinaryTree();
+        binaryTree2.add(1);
+        binaryTree2.add(2);
+        binaryTree2.add(3);
+        binaryTree2.add(10);
+        binaryTree2.add(7);
+        binaryTree2.add(20);
+
+        System.out.println(TreeIntersection.tree_intersection(binaryTree1,binaryTree2));
+        System.out.println(TreeIntersectionStretchGoals.tree_intersection(binaryTree1,binaryTree2));
+
     }
 }
