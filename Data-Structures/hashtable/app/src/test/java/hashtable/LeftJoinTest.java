@@ -1,5 +1,6 @@
 package hashtable;
 
+
 import LeftJoin.LeftJoin;
 import RepeatedWord.RepeatedWord;
 import TreeIntersection.TreeIntersection;
@@ -40,58 +41,61 @@ public class LeftJoinTest {
         Hashtable hashtableLeft = new Hashtable();
         Hashtable hashtableRight = new Hashtable();
 
-        assertEquals("Test LeftJoin Method For Both HashTables Empty","[[areej6, 30, null], [areej1, 20, null], [areej, 10, null], [areej2, 30, null]]", LeftJoin.leftJoin(hashtableLeft,hashtableRight).toString());
-        assertEquals("Test LeftJoin Method For Empty RightHashTable",4, LeftJoin.leftJoin(hashtableLeft,hashtableRight).size());
+        assertEquals("Test LeftJoin Method For Both HashTables Empty","[]", LeftJoin.leftJoin(hashtableLeft,hashtableRight).toString());
+        assertEquals("Test LeftJoin Method For Empty RightHashTable",0, LeftJoin.leftJoin(hashtableLeft,hashtableRight).size());
     }
 
     @Test
-    public void testTreeIntersectionMethodWithNoSharedValues(){
-        BinaryTree binaryTree1 = new BinaryTree();
-        binaryTree1.add(1);
-        binaryTree1.add(2);
-        binaryTree1.add(3);
+    public void testLeftJoinMethodForNoSharedValuesOfTheHashTables(){
+        Hashtable hashtableLeft = new Hashtable();
+        Hashtable hashtableRight = new Hashtable();
+        hashtableLeft.add("areej",10);
+        hashtableLeft.add("areej1",20);
+        hashtableLeft.add("areej2",30);
+        hashtableLeft.add("areej3",30);
 
-        BinaryTree binaryTree2 = new BinaryTree();
-        binaryTree1.add(4);
-        binaryTree1.add(5);
-        binaryTree1.add(6);
+        hashtableRight.add("areej10",1);
+        hashtableRight.add("areej20",2);
+        hashtableRight.add("areej30",3);
+        hashtableRight.add("areej40",4);
 
-        assertEquals("Test  treeIntersection Method With No Shared Values",0, TreeIntersection.tree_intersection(binaryTree1,binaryTree2).size());
-        assertEquals("Test  treeIntersection Method With No Shared Values","[]", TreeIntersection.tree_intersection(binaryTree1,binaryTree2).toString());
+        assertEquals("Test LeftJoin Method For No Shared Values Of The HashTables","[[areej1, 20, null], [areej3, 30, null], [areej, 10, null], [areej2, 30, null]]", LeftJoin.leftJoin(hashtableLeft,hashtableRight).toString());
+        assertEquals("Test LeftJoin Method For No Shared Values Of The HashTables",4, LeftJoin.leftJoin(hashtableLeft,hashtableRight).size());
     }
 
     @Test
-    public void testTreeIntersectionMethodWithAllSharedValues(){
-        BinaryTree binaryTree1 = new BinaryTree();
-        binaryTree1.add(1);
-        binaryTree1.add(2);
-        binaryTree1.add(3);
+    public void testLeftJoinMethodWithAllSharedValues(){
+        Hashtable hashtableLeft = new Hashtable();
+        Hashtable hashtableRight = new Hashtable();
+        hashtableLeft.add("areej",10);
+        hashtableLeft.add("areej1",20);
+        hashtableLeft.add("areej2",30);
+        hashtableLeft.add("areej3",30);
 
-        BinaryTree binaryTree2 = new BinaryTree();
-        binaryTree2.add(1);
-        binaryTree2.add(2);
-        binaryTree2.add(3);
+        hashtableRight.add("areej",1);
+        hashtableRight.add("areej1",2);
+        hashtableRight.add("areej2",3);
+        hashtableRight.add("areej3",4);
 
-        assertEquals("Test  treeIntersection Method With All Shared Values",3, TreeIntersection.tree_intersection(binaryTree1,binaryTree2).size());
-        assertEquals("Test  treeIntersection Method With All Shared Values","[1, 2, 3]", TreeIntersection.tree_intersection(binaryTree1,binaryTree2).toString());
+        assertEquals("Test LeftJoin Method With All Shared Values","[[areej1, 20, 2], [areej3, 30, 4], [areej, 10, 1], [areej2, 30, 3]]", LeftJoin.leftJoin(hashtableLeft,hashtableRight).toString());
+        assertEquals("Test LeftJoin Method With All Shared Values",4, LeftJoin.leftJoin(hashtableLeft,hashtableRight).size());
     }
 
     @Test
-    public void testTreeIntersectionMethodWithNotAllSharedValues(){
-        BinaryTree binaryTree1 = new BinaryTree();
-        binaryTree1.add(1);
-        binaryTree1.add(2);
-        binaryTree1.add(3);
-        binaryTree1.add(4);
+    public void testLeftJoinMethodWithNotAllSharedValues(){
+        Hashtable hashtableLeft = new Hashtable();
+        Hashtable hashtableRight = new Hashtable();
+        hashtableLeft.add("areej",10);
+        hashtableLeft.add("areej1",20);
+        hashtableLeft.add("areej2",30);
+        hashtableLeft.add("areej3",30);
 
-        BinaryTree binaryTree2 = new BinaryTree();
-        binaryTree2.add(1);
-        binaryTree2.add(2);
-        binaryTree2.add(3);
-        binaryTree2.add(5);
-        binaryTree2.add(6);
+        hashtableRight.add("areej",1);
+        hashtableRight.add("areej1",2);
+        hashtableRight.add("areej2",3);
+        hashtableRight.add("areej4",4);
 
-        assertEquals("Test  treeIntersection Method With Not All Shared Values",3, TreeIntersection.tree_intersection(binaryTree1,binaryTree2).size());
-        assertEquals("Test  treeIntersection Method With Not All Shared Values","[1, 2, 3]", TreeIntersection.tree_intersection(binaryTree1,binaryTree2).toString());
+        assertEquals("Test LeftJoin Method With Not All Shared Values","[[areej1, 20, 2], [areej3, 30, null], [areej, 10, 1], [areej2, 30, 3]]", LeftJoin.leftJoin(hashtableLeft,hashtableRight).toString());
+        assertEquals("Test LeftJoin Method With Not All Shared Values",4, LeftJoin.leftJoin(hashtableLeft,hashtableRight).size());
     }
 }

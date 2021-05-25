@@ -3,6 +3,8 @@
  */
 package hashtable;
 
+import LeftJoin.LeftJoin;
+import LeftJoin.JoinStretchGoals;
 import RepeatedWord.RepeatedWord;
 
 import RepeatedWord.RepeatedWordStretchGoals;
@@ -39,6 +41,21 @@ public class App {
 
         System.out.println(TreeIntersection.tree_intersection(binaryTree1,binaryTree2));
         System.out.println(TreeIntersectionStretchGoals.tree_intersection(binaryTree1,binaryTree2));
+        Hashtable hashtableLeft = new Hashtable();
+        Hashtable hashtableRight = new Hashtable();
+        hashtableLeft.add("areej",0);
+        hashtableLeft.add("areej1",1);
+        hashtableLeft.add("areej2",2);
+        hashtableLeft.add("areej3",3);
 
+        hashtableRight.add("areej",10);
+        hashtableRight.add("areej1",20);
+        hashtableRight.add("areej2",30);
+        hashtableRight.add("areej6",30);
+
+        System.out.println(LeftJoin.leftJoin(hashtableLeft,hashtableRight));
+        System.out.println(JoinStretchGoals.join(hashtableLeft, hashtableRight,"r"));
+        System.out.println(JoinStretchGoals.join(hashtableLeft, hashtableRight,"l"));
+        System.out.println(JoinStretchGoals.join(hashtableLeft, hashtableRight,""));
     }
 }
