@@ -9,7 +9,7 @@
 
 ## Whiteboard Process
 ![](./img/lab33.png)
-[Link](https://docs.google.com/drawings/d/1q_BQ10IiLeRI4ySWByW_nF8EiEQaKwMBbE_ZW0aQVCk/edit?usp=sharing)
+[Link](https://docs.google.com/drawings/d/16uLCbpeb12MmCVv4xmE9lqr9JVBc5djFsyKiGTuxsiY/edit?usp=sharing)
 
 ## Approach & Efficiency
 Big O => O(n^2), we have for and while loop.

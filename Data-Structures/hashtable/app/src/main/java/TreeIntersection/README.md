@@ -4,7 +4,7 @@
 
 ## Whiteboard Process
 ![](./img/lab32.png)
-[Link](https://docs.google.com/drawings/d/1q_BQ10IiLeRI4ySWByW_nF8EiEQaKwMBbE_ZW0aQVCk/edit?usp=sharing)
+[Link](https://docs.google.com/drawings/d/106Se_1LOpk1wJaVMWTq8E_KCyOPC7OYzoF3amgVdV7M/edit?usp=sharing)
 
 ## Approach & Efficiency
 Big O => O(n), we just have Recreation loop.
