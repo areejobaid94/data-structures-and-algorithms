@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../graph/app/src/main/java/graph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/app/src/main/java/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/app/src/main/java/graph/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/app/src/main/java/linkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/app/src/main/java/linkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graph/app/src/test/java/graph/graphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LinkedList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tree/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

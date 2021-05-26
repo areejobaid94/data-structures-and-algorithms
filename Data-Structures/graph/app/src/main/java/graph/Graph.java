@@ -41,6 +41,8 @@ public class Graph {
             vertices.add(vertex);
         return vertices.size() != 0 ? vertices: null;
     }
+
+
     public LinkedList getNeighbors(Vertex vertex){
         if(setOfVertexEdges.get(vertex) != null){
             return  setOfVertexEdges.get(vertex);
