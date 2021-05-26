@@ -11,9 +11,9 @@ Implement a Hashtable with the following methods:
 ## Approach & Efficiency
 #### Big O of `add`: O(n) Because we have hash method which has n time complexity.
 
-#### Big O of `get`: O(2n) Because we have while loop and hash method which has n time complexity.
+#### Big O of `get`: O(n) Because we have while loop and hash method which has n time complexity.
 
-#### Big O of `contains`: O(2n) Because we have while loop and hash method which has n time complexity.
+#### Big O of `contains`: O(n) Because we have while loop and hash method which has n time complexity.
 
 #### Big O of `hash`: O(n) Because we have while loop.
 
