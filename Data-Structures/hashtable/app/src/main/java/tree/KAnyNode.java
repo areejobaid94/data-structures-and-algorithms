@@ -2,7 +2,7 @@ package tree;
 
 import java.util.ArrayList;
 
-public class KAnyNode {
+public class KAnyNode  extends Node{
     public ArrayList<KAnyNode> children = new ArrayList<>();
     public Object value;
 

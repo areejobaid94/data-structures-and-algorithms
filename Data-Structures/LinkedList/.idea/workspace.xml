@@ -7,6 +7,9 @@
     <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hashtable/app/out/test/classes/hashtable/TreeIntersectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hashtable/app/out/test/classes/hashtable/TreeIntersectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hashtable/app/src/main/java/tree/KAnyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hashtable/app/src/main/java/tree/KAnyNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hashtable/app/src/main/java/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hashtable/app/src/main/java/tree/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hashtable/app/src/test/java/hashtable/TreeIntersectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hashtable/app/src/test/java/hashtable/TreeIntersectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,6 +146,11 @@
           <line>5</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/App.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/test/java/LinkedList/AppTest.java</url>
           <line>110</line>
@@ -185,7 +193,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/App.java</url>
-          <line>33</line>
+          <line>37</line>
           <properties class="LinkedList.App" method="binarySearch">
             <option name="EMULATED" value="true" />
           </properties>
