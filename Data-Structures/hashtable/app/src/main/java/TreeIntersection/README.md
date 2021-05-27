@@ -10,6 +10,11 @@
 Big O => O(n), we just have Recreation loop.
 Space comp => O(n^2), we added a hashmap and arraylist.
 
+## considering that the original normal binary tree will always take N^2, what do you think optimal BST could be? 
+
+The time complexity is one in binary search if we want to use only the BST it will be O(log(n)) I thing.
+We can change the way of looping over the tree is we just have Binary tree, and that will make the time complexity O(log(n)) .
+
 ## Solution
 ```   
     //Solution With Hashtable
