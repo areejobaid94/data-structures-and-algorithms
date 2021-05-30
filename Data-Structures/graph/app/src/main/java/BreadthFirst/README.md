@@ -12,5 +12,5 @@ Extend your graph object with a breadth-first traversal method that accepts a st
     * breadthFirstMethod(): O(n^3) => We have ArrayList, Queue and Set.
 
 ## Solution
-The Link of the whiteboard:
-[](https://docs.google.com/drawings/d/1UBmMtpOPb91zHOSJEv8Dq1JvURczLcUJTJ4tfgsEAfU/edit?usp=sharing)
+
+[The Link of the whiteboard: ](https://docs.google.com/drawings/d/1UBmMtpOPb91zHOSJEv8Dq1JvURczLcUJTJ4tfgsEAfU/edit?usp=sharing)
