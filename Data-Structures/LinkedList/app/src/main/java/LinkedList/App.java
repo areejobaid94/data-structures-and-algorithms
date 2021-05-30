@@ -3,6 +3,8 @@
  */
 package LinkedList;
 
+import Node.Node;
+
 import java.util.ArrayList;
 
 public class App {
@@ -42,5 +44,20 @@ public class App {
             }
         }
         return -1;
+    }
+
+
+    public static LinkedList deleteTheValue(LinkedList linkedList, int value){
+        Node current=  linkedList.head;
+        while (current.next != null){
+            if((int)current.next.value == value){
+                current.next = current.next.next;
+            }
+            current = current.next;
+        }
+        if(linkedList.head != null &&(int) linkedList.head.value == value){
+            linkedList.head = linkedList.head.next;
+        }
+        return linkedList;
     }
 }
