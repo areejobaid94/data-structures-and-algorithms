@@ -1,12 +1,13 @@
 package LinkedList;
-import Node.Node;
 import Errors.Error;
+import Node.NodeRightDown;
+import Node.Node;
 
 import java.util.ArrayList;
 
 public class LinkedList {
   Node head;
-  int size;
+  static int  size;
   public LinkedList(Object value){
     this.head = new Node(value);
     this.size = this.size +1;
@@ -203,6 +204,8 @@ public class LinkedList {
     Node node = list.head;
     if(node == null ||(node != null && node.next == null))return false;
     int count = 0;
+    ArrayList fromStartToMid =new ArrayList();
+    int mid = this.size/2;
     while(node != null && (count < (((int) list.size/2)))){
       if(this.kthFromEnd(count) != this.kthFromEnd(list.size - count -1))return false;
       node = node.next;
@@ -211,13 +214,13 @@ public class LinkedList {
     return true;
   };
   public LinkedList marge (LinkedList list1, LinkedList list2){
-        Node current1 = list1.head;
-        Node current2 = list2.head;
+        Node current1 = (Node) list1.head;
+        Node current2 = (Node)  list2.head;
         while (current1 != null && current2 != null){
-          Node temp = current1.next;
+          Node temp = (Node) current1.next;
           current1.next = current2;
           current1 = temp;
-          temp = current2.next;
+          temp =  (Node) current2.next;
           if(current1 != null)
             current2.next = current1;
           current2 = temp;
@@ -225,6 +228,102 @@ public class LinkedList {
         return list1;
   }
 
+  static LinkedList addOne(LinkedList linkedList)
+  {
+    Node head = linkedList.head;
+    String numToString = "";
+    while (head != null){
+      numToString = numToString +head.value;
+      head = head.next;
+    }
+    head = linkedList.head;
+    int stringToNum =(Integer.parseInt(numToString))+1;
+    numToString = stringToNum + "";
+    int count  = 0;
+    while (head != null){
+      head.value = numToString.charAt(count);
+      head = head.next;
+      count++;
+    }
+    return linkedList;
+  }
 
+
+
+
+  static Node addOne(Node head)
+  {
+    String numToString = "";
+    Node current = head;
+    Node output = head;
+    while (current != null){
+      numToString = numToString +current.value;
+      current = current.next;
+    }
+    int stringToNum =(Integer.parseInt(numToString))+1;
+    numToString = stringToNum + "";
+    int count  = 0;
+    while (head != null){
+      head.value = numToString.charAt(count);
+      head = head.next;
+      count++;
+    }
+    return output;
+  }
+
+  public static Node reverseK(Node  head, int k ){
+      Node  prev = null;
+      Node  current = head;
+      Node  next = null;
+      int count = 0 ;
+      k = size - k -1;
+      while (current != null &&  count < k)
+      {
+        next = current.next;
+        current.next = prev;
+        prev = current;
+        current = next;
+        count ++;
+      }
+    System.out.println(prev);
+    System.out.println(current);
+    prev.next = current;
+    return prev;
+  }
+
+  public static Node swap (Node  head){
+    Node  current = head;
+    while (current != null && current.next != null)
+    {
+      Object value = current.value ;
+      current.value = current.next.value;
+      current.next.value =value;
+      current = current.next.next;
+    }
+    return head;
+  }
+
+
+  public static Node mergeWithSort (Node head1,Node head2){
+    Node output = new Node(1);
+    Node current = output;
+    while(head1 != null && head2 != null)
+    {
+      if((int)head1.value <= (int)head2.value)
+      {
+        current.next = head1;
+        head1 = head1.next;
+      }
+      else
+      {
+        current.next = head2;
+        head2 = head2.next;
+      }
+      current = current.next;
+    }
+    if(head1 == null) current.next = head1;
+    if(head2 == null) current.next = head2;
+    return output.next;
+  }
 };
 

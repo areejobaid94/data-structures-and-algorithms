@@ -1,5 +1,9 @@
 package tree;
 
+import helpers.Queue;
+
+import java.util.ArrayList;
+
 public class BinaryTree <T>{
     Node root;
 
@@ -74,7 +78,87 @@ public class BinaryTree <T>{
         return output;
     }
 
+    public boolean checkBinaryTreeDepth(){
+        boolean output = true;
+        try {
+            if (root.left != null)
+                output = output && checkBinaryTreeDepth(root.left,this.root.value,false);
+            if (root.right != null)
+                output = output && checkBinaryTreeDepth(root.right,this.root.value,true);
+        }catch (Exception ex){
+            System.out.println(ex);
+        }
+        return output;
+    }
 
+    public boolean checkBinaryTreeDepth(Node root, Object value,boolean isRight){
+        boolean output = true;
+        try {
+            if(isRight == true && (int) value > (int) root.value ){
+                return false;
+            }else if(isRight == false && (int) value < (int) root.value ){
+                return false;
+            }
+            if (root.left != null){
+                output = output && checkBinaryTreeDepth(root.left,root.value, false);
+            }
+            if (root.right != null)
+                output = output && checkBinaryTreeDepth(root.right,root.value,true);
+        }catch (Exception ex){
+            System.out.println(ex);
+        }
+        return output;
+    }
+
+
+    public boolean checkBinaryIdenticalTreeDepth(Node root1, Node root2){
+        boolean output = true;
+        try {
+            if (root1.left != null){
+                if( root2.left == null || (int)  root2.left.value != (int) root1.left.value){
+                    return false;
+                }
+                output = output && checkBinaryIdenticalTreeDepth(root1.left,root2.left);
+            }
+            if(root2.left != null  && root1.left == null || root2.right != null  && root1.right == null){
+                return false;
+            }
+            if (root1.right != null){
+                if( root2.right == null || (int)  root2.right.value != (int) root1.right.value){
+                    return false;
+                }
+                output = output && checkBinaryIdenticalTreeDepth(root1.right,root2.right);
+            }
+        }catch (Exception ex){
+            System.out.println(ex);
+        }
+        return output;
+    }
+
+
+    public  boolean checkBinaryBreadthFirst(){
+        ArrayList arrayList = new ArrayList();
+        if(this.root == null)return  true;
+        Queue queue = new Queue();
+        queue.enqueue(this.root);
+        while (queue.front != null){
+            arrayList.add(((Node) queue.front.value).value);
+            if(((Node) queue.front.value).left != null){
+                if((int)((Node) queue.front.value).value < (int)((Node) queue.front.value).left.value ){
+                    return false;
+                }
+                queue.enqueue(((Node) queue.front.value).left);
+            }
+            if(((Node) queue.front.value).right != null){
+                if((int)((Node) queue.front.value).value > (int)((Node) queue.front.value).right.value ){
+                    return false;
+                }
+                queue.enqueue(((Node) queue.front.value).right);
+            }
+            queue.dequeue();
+        }
+        return true;
+    }
     public String inOrder(){
         String output = "";
         try {
@@ -197,4 +281,10 @@ public class BinaryTree <T>{
         return max[0];
     }
 
+    @Override
+    public String toString() {
+        return "BinaryTree{" +
+                "root=" + root +
+                '}';
+    }
 }

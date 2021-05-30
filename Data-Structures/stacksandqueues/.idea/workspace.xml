@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="" />
+    <list default="true" id="fab39aeb-1114-4d40-818c-e38f64b38008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LinkedList/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedList/app/src/main/java/Node/NodeRightDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/stacksandqueues.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/app/out/production/classes/Errors/Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/app/out/production/classes/Errors/Error.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/app/out/production/classes/LinkedList/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/app/out/production/classes/LinkedList/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/app/out/production/classes/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/app/out/production/classes/LinkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/app/out/production/classes/Node/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/app/out/production/classes/Node/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/app/out/test/classes/LinkedList/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/app/out/test/classes/LinkedList/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/app/src/main/java/LinkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/app/src/main/java/LinkedList/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/app/src/main/java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/app/src/main/java/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,8 +68,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LinkedList" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />

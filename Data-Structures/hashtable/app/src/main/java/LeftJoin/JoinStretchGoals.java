@@ -6,10 +6,11 @@ import linkedList.LinkedList;
 import linkedList.Node;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
 
 public class JoinStretchGoals {
-    public static ArrayList join(Hashtable leftHashtable, Hashtable rightHashtable,String typeOfJoin){
+    public static ArrayList join(HashMap leftHashtable, HashMap rightHashtable, String typeOfJoin){
         ArrayList output = new ArrayList();
         if(typeOfJoin.toLowerCase() == "r" || typeOfJoin.toLowerCase() == "right"){
             output = LeftJoin.leftJoin(rightHashtable, leftHashtable);
