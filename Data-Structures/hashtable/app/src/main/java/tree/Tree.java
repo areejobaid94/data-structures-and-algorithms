@@ -1,13 +1,13 @@
 package tree;
 
-public class Tree <T>{
+public class Tree <T> extends BinaryTree{
     public KAnyNode root;
     public Tree(T value,int maxNrOfChildren) {
 
         this.root = new KAnyNode(value);
     }
 
-    public Tree() {
+    public Tree(KAnyNode kAnyNode) {
     }
 
     @Override

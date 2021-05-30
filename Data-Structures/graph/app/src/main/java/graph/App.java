@@ -3,12 +3,36 @@
  */
 package graph;
 
+import BreadthFirst.BreadthFirst;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        BreadthFirst graph = new BreadthFirst();
+        Vertex Pandora = new Vertex("Pandora");
+        graph.addNode(Pandora);
+        Vertex Arendelle = new Vertex("Arendelle");
+        graph.addNode(Arendelle);
+        Vertex Metroville = new Vertex("Metroville");
+        graph.addNode(Metroville);
+        Vertex Monstroplolis = new Vertex("Monstroplolis");
+        graph.addNode(Monstroplolis);
+        Vertex Narnia = new Vertex("Narnia");
+        graph.addNode(Narnia);
+        Vertex Naboo = new Vertex("Naboo");
+        graph.addNode(Naboo);
+
+        graph.addEdge(Pandora,Arendelle,0);
+        graph.addEdge(Arendelle,Metroville,0);
+        graph.addEdge(Arendelle,Monstroplolis,0);
+        graph.addEdge(Metroville,Monstroplolis,0);
+        graph.addEdge(Metroville,Narnia,0);
+        graph.addEdge(Metroville,Naboo,0);
+        graph.addEdge(Monstroplolis,Naboo,0);
+        graph.addEdge(Narnia,Naboo,0);
+        System.out.println(graph.breadthFirstMethod(Pandora));
     }
 }
