@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6460f0-9037-4a2f-bc8d-f051f2fdbe25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Node/NodeRightDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/Errors/Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/Errors/Error.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/LinkedList/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/LinkedList/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/LinkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/Node/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/Node/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/test/classes/LinkedList/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/test/classes/LinkedList/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tree/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -33,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.App">
@@ -156,7 +168,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java</url>
-          <line>165</line>
+          <line>166</line>
           <properties class="LinkedList.LinkedList" method="zipLists">
             <option name="EMULATED" value="true" />
           </properties>
@@ -172,7 +184,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/LinkedList.java</url>
-          <line>183</line>
+          <line>184</line>
           <properties class="LinkedList.LinkedList" method="zipLists2nd">
             <option name="EMULATED" value="true" />
           </properties>
@@ -186,19 +198,11 @@
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/LinkedList/App.java</url>
-          <line>31</line>
-          <properties class="LinkedList.App" method="binarySearch">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LinkedList$App.ic" NAME="App Coverage Results" MODIFIED="1618344705437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LinkedList$App.ic" NAME="App Coverage Results" MODIFIED="1622214843928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LinkedList.*</FILTER>
     </SUITE>
   </component>

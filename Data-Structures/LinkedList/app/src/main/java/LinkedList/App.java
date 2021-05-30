@@ -11,22 +11,22 @@ public class App {
         linkedList.append(1);
         linkedList.append(3);
         linkedList.append(5);
-        linkedList.append(7);
+        linkedList.append(9);
+        linkedList.append(11);
         LinkedList linkedList2 = new LinkedList();
+        linkedList2.append(1);
         linkedList2.append(2);
         linkedList2.append(4);
+        linkedList2.append(6);
         linkedList2.append(8);
-        System.out.println(linkedList.marge(linkedList,linkedList2));
-        ArrayList<Object> arrayList = new ArrayList<>();
-        arrayList.add(1);
-        arrayList.add(2);
-        arrayList.add(3);
-        arrayList.add(4);
-        arrayList.add(5);
-        arrayList.add(6);
-        arrayList.add(7);
-        arrayList.add(8);
-        System.out.println(App.binarySearch(1,arrayList));
+        linkedList2.append(10);
+//        System.out.println(LinkedList.addOne(linkedList));
+////        System.out.println(LinkedList.addOne(linkedList.head));
+//        System.out.println(LinkedList.reverseK(linkedList.head,2));
+//        System.out.println(linkedList);
+//        System.out.println(LinkedList.swap(linkedList.head));
+        System.out.println(LinkedList.mergeWithSort(linkedList.head, linkedList2.head));
+//        System.out.println(linkedList);
     }
 
     public static int binarySearch(Object ele, ArrayList<Object> array){
