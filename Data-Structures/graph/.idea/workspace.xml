@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf360a94-b8f8-4323-aceb-38346f76ec6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/out/production/classes/getEdge/GetEdge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/out/test/classes/graph/GetEdgeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/out/test/classes/graph/graphTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/getEdge/GetEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/getEdge/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/graph/GetEdgeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/BreadthFirst/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/BreadthFirst/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/graph/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/graph/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/graph/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/graph/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +53,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/getEdge" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.BreadthFirstTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\engab\OneDrive\Desktop\data-structures-and-algorithms\Data-Structures\graph\app\src\main\java\getEdge" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.App" />
       <module name="graph.app.main" />
@@ -66,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreadthFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetEdgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph.app.test" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +87,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="graph" />
-      <option name="MAIN_CLASS_NAME" value="graph.BreadthFirstTest" />
+      <option name="MAIN_CLASS_NAME" value="graph.GetEdgeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreadthFirstTest.multipleItemsWithNoSharedEdges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetEdgeTest.getEdgeTestFullTripNotPossible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph.app.test" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +102,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="graph" />
-      <option name="MAIN_CLASS_NAME" value="graph.BreadthFirstTest" />
-      <option name="METHOD_NAME" value="multipleItemsWithNoSharedEdges" />
+      <option name="MAIN_CLASS_NAME" value="graph.GetEdgeTest" />
+      <option name="METHOD_NAME" value="getEdgeTestFullTripNotPossible" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetEdgeTest.getEdgeTestFullTripPossible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graph.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.GetEdgeTest" />
+      <option name="METHOD_NAME" value="getEdgeTestFullTripPossible" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetEdgeTest.getEdgeTestOneTrip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graph.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graph" />
+      <option name="MAIN_CLASS_NAME" value="graph.GetEdgeTest" />
+      <option name="METHOD_NAME" value="getEdgeTestOneTrip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,9 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BreadthFirstTest" />
-        <item itemvalue="JUnit.BreadthFirstTest.multipleItemsWithNoSharedEdges" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.GetEdgeTest" />
+        <item itemvalue="JUnit.GetEdgeTest.getEdgeTestOneTrip" />
+        <item itemvalue="JUnit.GetEdgeTest.getEdgeTestFullTripNotPossible" />
+        <item itemvalue="JUnit.GetEdgeTest.getEdgeTestFullTripPossible" />
       </list>
     </recent_temporary>
   </component>
@@ -115,5 +161,29 @@
       <updated>1622392682019</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/getEdge/GetEdge.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/getEdge/GetEdge.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/test/java/graph/GetEdgeTest.java</url>
+          <line>10</line>
+          <properties class="graph.GetEdgeTest" method="getEdgeTestOneTrip">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
