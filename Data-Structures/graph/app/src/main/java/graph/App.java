@@ -4,6 +4,7 @@
 package graph;
 
 import BreadthFirst.BreadthFirst;
+import DepthFirst.DepthFirst;
 import getEdge.GetEdge;
 
 import java.util.ArrayList;
@@ -37,6 +38,7 @@ public class App {
         graph.addEdge(Monstroplolis,Naboo,0);
         graph.addEdge(Narnia,Naboo,0);
         System.out.println(graph.breadthFirstMethod(Pandora));
+        System.out.println(DepthFirst.depthFirstGraph(graph,Pandora));
 
         GetEdge getEdge = new GetEdge();
         getEdge.addNode(Pandora);
