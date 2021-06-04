@@ -6,10 +6,10 @@ Extend your graph object with a breadth-first traversal method that accepts a st
 
 ## Approach & Efficiency
 #### Time complexity:-
-    * breadthFirstMethod(): O(n^2) => Two While loops;
+    * breadthFirstMethod(): O(n) => Two While loops;
 
 #### Space complexity:
-    * breadthFirstMethod(): O(n^3) => We have ArrayList, Queue and Set.
+    * breadthFirstMethod(): O(n+n+w) => We have ArrayList, Queue and Set.
 
 ## Solution
 
