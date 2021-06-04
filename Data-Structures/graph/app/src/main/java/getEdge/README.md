@@ -5,7 +5,7 @@ Implementing check  whether the full trip is possible with direct flights, and h
 Write a function based on the specifications above, which takes in a graph, and an array of city names. Without utilizing any of the built-in methods available to your language, return whether the full trip is possible with direct flights, and how much it would cost.
 ## Approach & Efficiency
 #### Time complexity:-
-    * checkFullTripPossibility(): O(n^m) => Two for loops and While;
+    * checkFullTripPossibility(): O(n^m) => n for graph and m for trips;
 
 #### Space complexity:
     * checkFullTripPossibility(): O(n) => We have ArrayList.
