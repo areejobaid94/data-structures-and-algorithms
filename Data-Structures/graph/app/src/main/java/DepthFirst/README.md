@@ -6,7 +6,7 @@ Create a function that accepts an adjacency list as a graph, and conducts a dept
 
 ## Approach & Efficiency
 #### Time complexity:-
-    * depthFirstGraph(): O(n) => for loop and recartion;
+    * depthFirstGraph(): O(n) => for loop and recartion on graph;
 
 #### Space complexity:
     * depthFirstGraph(): O(n) => We have ArrayList.
