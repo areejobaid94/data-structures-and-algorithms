@@ -6,7 +6,7 @@ Extend your graph object with a breadth-first traversal method that accepts a st
 
 ## Approach & Efficiency
 #### Time complexity:-
-    * breadthFirstMethod(): O(n) => Two While loops to loop throw all the items of the graph;
+    * breadthFirstMethod(): O(n) => Two While loops to loop throw all the items of the graph once;
 
 #### Space complexity:
     * breadthFirstMethod(): O(n+n+w) => We have ArrayList, Queue and Set.
